@@ -32,7 +32,7 @@ Upload your source code only.
 
 // Header
 #include <iostream>
-#include <string>
+//#include <string>
 #include <iomanip>
 
 using namespace std;
@@ -71,10 +71,10 @@ int main() {
     bool correctInput;
     
     // Program title
-    cout << setw(6) << "\nSecurity System\n" << endl;
+    cout << setw(6) << " " << "Security System\n" << endl;
     
     // Ask the user to input their password
-    cout << "Welcome to the security sytem!" << endl;
+    cout << "Welcome to the security system!" << endl;
     cout << "Please enter your password: ";
     cin >> userInput;
     
@@ -111,8 +111,9 @@ int main() {
     }
     
     // Let the user know there was to many attemps
-    cout << "To many attempts, the program will exit, please try again later..." << endl;
-   
+    if (tries >= 6) {
+        cout << "To many attempts, the program will exit, please try again later..." << endl;
+    }
     
     // Used to exit program
     return 0;
