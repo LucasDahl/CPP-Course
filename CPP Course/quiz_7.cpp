@@ -37,8 +37,82 @@ Upload your source code only.
 
 using namespace std;
 
+// Used to check the users password attempt
+int attemptHandle(string userInput, string password) {
+    
+    // Properties
+    bool attempt;
+    
+    // Convert the user attempt to all lower to allow for less if statments
+    for (int i=0; i< userInput.length(); i++) {
+        userInput[i] = tolower(userInput[i]);
+    }
+    
+    // Check if the user password is correct or not
+       if (userInput == password) {
+           attempt = true;
+       } else {
+           attempt = false;
+       }
+    
+    // Return the bool
+    return attempt;
+    
+}
+
+
+
+// Main function
 int main() {
     
+    // Properties
+    string password = "password", userInput;
+    int tries = 0;
+    bool correctInput;
+    
+    // Program title
+    cout << setw(6) << "\nSecurity System\n" << endl;
+    
+    // Ask the user to input their password
+    cout << "Welcome to the security sytem!" << endl;
+    cout << "Please enter your password: ";
+    cin >> userInput;
+    
+    // Run the password attempted by the user through the function
+    correctInput = attemptHandle(userInput, password);
+    
+    // user has five appttemps to enter the correct password before the program ends.
+    // While loop keeps track of the number of tries.
+    while (tries <= 5) {
+     
+        if (correctInput == true) {
+            cout << "Congratulations! Access granted!" << endl <<
+            "You will be directed to the homepage shortly…" << endl;
+            break;
+        } else {
+            
+            // Let the user know their attempt was worng
+            cout << "Sorry, wrong code." << endl <<
+            "Access denied" << endl <<
+            "Please try again" << endl;
+            
+            // Increase tries by one
+            tries += 1;
+            
+            // Ask the user to try again
+            cout << "Please try your password again: ";
+            cin >> userInput;
+            
+            // Run the new attempt through the method.
+            correctInput = attemptHandle(userInput, password);
+        }
+        
+        
+    }
+    
+    // Let the user know there was to many attemps
+    cout << "To many attempts, the program will exit, please try again later..." << endl;
+   
     
     // Used to exit program
     return 0;
