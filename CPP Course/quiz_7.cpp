@@ -112,7 +112,7 @@ int main() {
     
     // Let the user know there was to many attemps
     if (tries >= 6) {
-        cout << "To many attempts, the program will exit, please try again later..." << endl;
+        cout << "To many attempts, the program will exit, \nplease try again later..." << endl;
     }
     
     // Used to exit program
