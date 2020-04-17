@@ -57,9 +57,33 @@
 		95BF94D62449F819004C8113 /* CPP Course */ = {
 			isa = PBXGroup;
 			children = (
-				95BF94D72449F819004C8113 /* quiz_7.cpp */,
+				95BF94E0244A1C4D004C8113 /* Notes */,
+				95BF94DF244A1C3D004C8113 /* Homework */,
+				95BF94DE244A1C08004C8113 /* Quizzes */,
 			);
 			path = "CPP Course";
+			sourceTree = "<group>";
+		};
+		95BF94DE244A1C08004C8113 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				95BF94D72449F819004C8113 /* quiz_7.cpp */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
+		95BF94DF244A1C3D004C8113 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		95BF94E0244A1C4D004C8113 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
