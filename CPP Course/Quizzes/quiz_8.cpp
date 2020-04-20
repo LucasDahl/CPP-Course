@@ -59,11 +59,11 @@ int main() {
     cout << "BMI = " << bmi << endl;
     
     if (bmi >= 18.5 && bmi <= 25) {
-        cout << "Weight is optimal." << endl;
+        cout << "Your weight is optimal." << endl;
     } else if (bmi >= 0 && bmi <= 18.5) {
-        cout << "Weight is underweight." << endl;
+        cout << "You are considered underweight." << endl;
     } else if (bmi >= 25) {
-        cout << "Weight is overweight." << endl;
+        cout << "Your are considered overweight." << endl;
     }
     
     // Used to exit the program
