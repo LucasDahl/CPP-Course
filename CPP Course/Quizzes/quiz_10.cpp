@@ -18,7 +18,7 @@ using namespace std;
 int main() {
     
     // Properties
-    //float length, width, area, perimeter;
+    float length, width, area, perimeter;
     int userChoice;
     string units,
     message = "Please enter a length and width\n" "(seperate with a space) and units: ";
@@ -34,13 +34,14 @@ int main() {
        
        cin >> userChoice;
     
+    // create a space for the results to be easier to read
+    cout << endl;
     
     // Switch on the user choice to run the correct program.
     switch (userChoice) {
         case 1:
             
             // Ask for the length and width
-            float length, width, area, perimeter;
             cout << message;
             cin >> length >> width >> units;
             
@@ -51,7 +52,6 @@ int main() {
             cout << "If the length is " << length << " " << units << " and the with is "
             <<  width << " " << units << " the area is " << area << " " << units
             << " squared. \n" << endl;
-            
             
             break;
             
@@ -80,7 +80,7 @@ int main() {
             area = length * width;
             perimeter = (length * 2) + (width * 2);
             
-            // Let the user know the area
+            // Let the user know the area and perimeter
             cout << "If the length is " << length << " " << units << " and the with is "
             <<  width << " " << units << " the perimeter is " << perimeter << " " << units << " and the area is "
             << area << " " << units << " squared."<< endl;
@@ -89,13 +89,16 @@ int main() {
             
         case 4:
             
-            cout << "Goodbye";
+            // The user did not want to calculate anything.
+            cout << "Goodbye\n";
             
             break;
+            
         default:
+            
+            // The user picked an invalid option.
             cout << "Not a valid option...";
             break;
-            
     }
     
     
