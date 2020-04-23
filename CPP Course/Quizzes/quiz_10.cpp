@@ -8,6 +8,7 @@
 
 
 // This program is used to calculate the geometry fof a rectangle based off a length and width given by the user.
+// This program also allows for the user to calculate multiple rectangle without leaving the program.
 
 // Header
 #include <iostream>
@@ -25,15 +26,14 @@ int calculate() {
     message = "Please enter a length and width\n" "(seperate with a space) and units: ";
     
     // Aak the user what they need calculated
-     // Ask the user what they want to calculate
-       cout << "Rectangle Geometry Calculator\n"
-       << "Please pick a number from the selction below and hit enter/return.\n"
-       << "1. Calculate the are area.\n"
-       << "2. Calculate the perimeter.\n"
-       << "3. Calculate both area and perimeter.\n"
-       << "4. Quit.\n";
-       
-       cin >> userChoice;
+    // Ask the user what they want to calculate
+    cout << "Rectangle Geometry Calculator\n"
+    << "Please pick a number from the selction below and hit enter/return.\n"
+    << "1. Calculate the are area.\n"
+    << "2. Calculate the perimeter.\n"
+    << "3. Calculate both area and perimeter.\n"
+    << "4. Quit.\n";
+    cin >> userChoice;
     
     // create a space for the results to be easier to read
     cout << endl;
@@ -115,11 +115,11 @@ int calculate() {
         calculate();
     } else if (tolower(answer) == 'n') {
         
-        cout << "Thanks, goodbye!\n";
+        cout << "Thank you for choosing our program, goodbye!\n";
         
     } else {
         
-        cout << "I guess you dont want to listen...\n";
+        cout << "I will take that as a no...\n";// normally would not end like this
         
     }
     
@@ -130,7 +130,6 @@ int calculate() {
 // The main function
 int main() {
     
-
     // Run the method
     calculate();
     
