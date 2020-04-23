@@ -14,10 +14,11 @@
 
 using namespace std;
 
-// The main function
-int main() {
+// ask the user what they need to calculate and calculate it.
+int calculate() {
     
     // Properties
+    char answer;
     float length, width, area, perimeter;
     int userChoice;
     string units,
@@ -26,7 +27,7 @@ int main() {
     // Aak the user what they need calculated
      // Ask the user what they want to calculate
        cout << "Rectangle Geometry Calculator\n"
-       << "Please pick a number from the selction below and hit enter/return"
+       << "Please pick a number from the selction below and hit enter/return.\n"
        << "1. Calculate the are area.\n"
        << "2. Calculate the perimeter.\n"
        << "3. Calculate both area and perimeter.\n"
@@ -51,7 +52,7 @@ int main() {
             // Let the user know the area
             cout << "If the length is " << length << " " << units << " and the with is "
             <<  width << " " << units << " the area is " << area << " " << units
-            << " squared. \n" << endl;
+            << " squared." << endl;
             
             break;
             
@@ -98,10 +99,40 @@ int main() {
             
             // The user picked an invalid option.
             cout << "Not a valid option...";
+            
+            // run the switch again
+            calculate();
+            
             break;
     }
     
     
+    // Ask the user if they need to calculate anything else.
+    cout << "\nDo you need to calculate anything else? (y for yes or n for n) ";
+    cin >> answer;
+    
+    if (tolower(answer) == 'y') {
+        calculate();
+    } else if (tolower(answer) == 'n') {
+        
+        cout << "Thanks, goodbye!\n";
+        
+    } else {
+        
+        cout << "I guess you dont want to listen...\n";
+        
+    }
+    
+    // Used to exit the method
+    return 0;
+}
+
+// The main function
+int main() {
+    
+
+    // Run the method
+    calculate();
     
     // Used to exit the program
     return 0;
