@@ -62,14 +62,14 @@ int main() {
                 
             case 2:
                 // Decision statement for leap year
-                if (year % 4 == 0) {
-                    if (year % 4 == 0) { // only needs this I believe.
+                if (year % 100 == 0) {
+                    if (year % 400 == 0) {
                         cout << "29 days " << endl;
                     } else {
                         cout << "28 days" << endl;
                     }
                     
-                } else if (year % 100 != 0) { // should be able to take this out
+                } else if (year % 100 != 0) {
                     if (year % 4 == 0) {
                         cout << "29 days" << endl;
                     } else {
