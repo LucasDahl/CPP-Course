@@ -19,87 +19,89 @@
  Input Validation: There are only 12 months in a year. Don’t accept negative years.
  */
 
+// This program is used to calculate the days in a month for any given year.
+
 // Header
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    
-    // Properties
-    int month, year;
-    bool flag;
-    
-    do {
-        
-        // Ask the user for the data.
-        cout << "Please enter a month (1-12): ";
-        cin >> month;
-        cout << "\nPlease enter a year: ";
-        cin >> year;
-        
-        // Decision statement for month
-        switch (month) {
-                
-                // For all months with 31 days
-            case 1:
-            case 3:
-            case 5:
-            case 7:
-            case 8:
-            case 10:
-            case 12:
-                cout << "31 days";
-                break;
-                
-                // For all days with 30days
-            case 4:
-            case 6:
-            case 9:
-            case 11:
-                cout << "30 days";
-                break;
-                
-            case 2:
-                // Decision statement for leap year
-                if (year % 100 == 0) {
-                    if (year % 400 == 0) {
-                        cout << "29 days " << endl;
-                    } else {
-                        cout << "28 days" << endl;
-                    }
-                    
-                } else if (year % 100 != 0) {
-                    if (year % 4 == 0) {
-                        cout << "29 days" << endl;
-                    } else {
-                        cout << "28 days" << endl;
-                    }
-                }
-                break;
-                
-            default:
-                cout << "Invalid month. Rerun program. Try again." << endl;
-        }
-        
-        // Check if the user entered an int
-        if (month >=1 && year >= 1) {
-            flag = true;
-        } else {
-            
-            // User entered something other than a int
-            flag = false;
-            
-            // Clear the input stream
-            cin.clear();
-            cin.ignore();
-        }
-        
-    } while(flag != true);
-    
-    cout << endl;
-    
-    // Used to exit the program
-    return 0;
-    
-}
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main() {
+//
+//    // Properties
+//    int month, year;
+//    bool flag;
+//
+//    do {
+//
+//        // Ask the user for the data.
+//        cout << "Please enter a month (1-12): ";
+//        cin >> month;
+//        cout << "\nPlease enter a year: ";
+//        cin >> year;
+//
+//        // Decision statement for month
+//        switch (month) {
+//
+//                // For all months with 31 days
+//            case 1:
+//            case 3:
+//            case 5:
+//            case 7:
+//            case 8:
+//            case 10:
+//            case 12:
+//                cout << "31 days";
+//                break;
+//
+//                // For all days with 30days
+//            case 4:
+//            case 6:
+//            case 9:
+//            case 11:
+//                cout << "30 days";
+//                break;
+//
+//            case 2:
+//                // Decision statement for leap year
+//                if (year % 100 == 0) {
+//                    if (year % 400 == 0) {
+//                        cout << "29 days " << endl;
+//                    } else {
+//                        cout << "28 days" << endl;
+//                    }
+//
+//                } else if (year % 100 != 0) {
+//                    if (year % 4 == 0) {
+//                        cout << "29 days" << endl;
+//                    } else {
+//                        cout << "28 days" << endl;
+//                    }
+//                }
+//                break;
+//
+//            default:
+//                cout << "Invalid month. Rerun program. Try again." << endl;
+//        }
+//
+//        // Check if the user entered an int
+//        if (month >=1 && year >= 1) {
+//            flag = true;
+//        } else {
+//
+//            // User entered something other than a int
+//            flag = false;
+//
+//            // Clear the input stream
+//            cin.clear();
+//            cin.ignore();
+//        }
+//
+//    } while(flag != true);
+//
+//    cout << endl;
+//
+//    // Used to exit the program
+//    return 0;
+//
+//}
