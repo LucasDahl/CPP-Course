@@ -24,16 +24,14 @@
 // is a partial or odd number of teams.
 
 #include <iostream>
-#include <iomanip>
-#include <math.h>
 
 using namespace std;
 
 int main() {
     
     // Properties
-    int teamSize = 0, totalPlayers = 0;// set to zero initially to silence warnings
-    float numberOfTeams;
+    int teamSize = 0, totalPlayers = 0,// set to zero initially to silence warnings
+    numberOfTeams, leftoverPlayers;
     string teamMessage = "How many players per team do you want? ",
     playerMessage = "How many avaliable players are there? ";
     bool flag = false, questionAsked = false;
@@ -89,30 +87,28 @@ int main() {
     }// End while loop
     
     // Make the calculations.
-    // Not every combination will be a whole number, must
-    // cast the int properties as floats.
-    numberOfTeams = (float(totalPlayers) / float(teamSize));
-    cout << setprecision(1) << fixed;
+    // Not every combination will be an even.
+    numberOfTeams = (totalPlayers / teamSize);
+    leftoverPlayers = (totalPlayers % teamSize);
+    
     cout << endl;
     
     // let the user know the results.
     
-    if (fmodf(numberOfTeams, 2.0) != 0) {
+    if (leftoverPlayers == 0) {
         
-        // User has a partial team or an odd number of teams.s
-        
+        // Even number of players
         cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
-        cout << "You will have " << numberOfTeams << " teams.\n";
-        cout << "You may need more players for a fair game and tournaments..." << endl;
-
+        cout << "You will have " << int(numberOfTeams) << " teams." << endl;
+        
         
     } else {
         
-        // Cast numberOfTeams as an int to be more user friendly,
-        // as it will make even number of teams.
-        
+
+        // User has a partial team.
         cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
-        cout << "You will have " << int(numberOfTeams) << " teams." << endl;
+        cout << "You will have " << numberOfTeams << " teams, with " << leftoverPlayers << " leftover.\n";
+        cout << "You may need more players for a fair game and tournaments..." << endl;
         
     }
     
