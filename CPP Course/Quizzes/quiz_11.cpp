@@ -33,7 +33,8 @@ int main() {
     int teamSize = 0, totalPlayers = 0,// set to zero initially to silence warnings
     numberOfTeams, leftoverPlayers;
     string teamMessage = "How many players per team do you want? ",
-    playerMessage = "How many avaliable players are there? ";
+    playerMessage = "How many avaliable players are there? ",
+    teams;
     bool flag = false, questionAsked = false;
     
     while (flag != true) {
@@ -84,12 +85,20 @@ int main() {
             flag = true;
         }
         
+        
     }// End while loop
     
     // Make the calculations.
     // Not every combination will be an even.
     numberOfTeams = (totalPlayers / teamSize);
     leftoverPlayers = (totalPlayers % teamSize);
+    
+    // Check to see if teams is greater than one for correct grammer.
+    if (numberOfTeams > 1) {
+        teams = "teams";
+    } else {
+        teams = "team";
+    }
     
     cout << endl;
     
@@ -99,20 +108,13 @@ int main() {
         
         // Even number of players
         cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
-        cout << "You will have " << int(numberOfTeams) << " teams.\n" << endl;
+        cout << "You will have " << numberOfTeams << " " << teams << ".\n" << endl;
         
         
     } else {
         
         
-        // Variable to allow for correct grammer in the message.
-        string teams;
         
-        if (numberOfTeams > 1) {
-            teams = "teams";
-        } else {
-            teams = "team";
-        }
 
         // User has a partial team.
         cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
