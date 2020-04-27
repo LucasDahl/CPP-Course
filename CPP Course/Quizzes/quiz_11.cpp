@@ -99,16 +99,25 @@ int main() {
         
         // Even number of players
         cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
-        cout << "You will have " << int(numberOfTeams) << " teams." << endl;
+        cout << "You will have " << int(numberOfTeams) << " teams.\n" << endl;
         
         
     } else {
         
+        
+        // Variable to allow for correct grammer in the message.
+        string teams;
+        
+        if (numberOfTeams > 1) {
+            teams = "teams";
+        } else {
+            teams = "team";
+        }
 
         // User has a partial team.
         cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
-        cout << "You will have " << numberOfTeams << " teams, with " << leftoverPlayers << " leftover.\n";
-        cout << "You may need more players for a fair game and tournaments..." << endl;
+        cout << "You will have " << numberOfTeams << " " << teams << ", with " << leftoverPlayers << " leftover.\n";
+        cout << "You may need more players for a fair game and tournaments...\n" << endl;
         
     }
     
