@@ -20,6 +20,8 @@
 
 // This program is to let the user know how many players will be on each
 // soccer team when given the team size and total number of players.
+// It will also let the user know if they need more players when there
+// is a partial or odd number of teams.
 
 #include <iostream>
 #include <iomanip>
@@ -97,10 +99,11 @@ int main() {
     
     if (fmodf(numberOfTeams, 2.0) != 0) {
         
-        cout << "With " << teamSize << " players per team, and "
-        << totalPlayers << " total players, you will have " <<
-        numberOfTeams << " teams. You may need more players for fair teams."
-        << endl;
+        // User has a partial team or an odd number of teams.s
+        
+        cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
+        cout << "You will have " << numberOfTeams << " teams.\n";
+        cout << "You may need more players for a fair game and tournaments..." << endl;
 
         
     } else {
@@ -108,9 +111,8 @@ int main() {
         // Cast numberOfTeams as an int to be more user friendly,
         // as it will make even number of teams.
         
-        cout << "With " << teamSize << " players per team, and "
-        << totalPlayers << " total players, you will have " <<
-        int(numberOfTeams) << " teams." << endl;
+        cout << "With " << teamSize << " players per team, and "<< totalPlayers << " total players.\n";
+        cout << "You will have " << int(numberOfTeams) << " teams." << endl;
         
     }
     
