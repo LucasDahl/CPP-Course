@@ -98,7 +98,7 @@
 //        default:
 //            
 //            // The user didnt pick a valid option
-//            cout << "Not a valid option... please pick again.\n";
+//            cout << "Not a valid option... pick again\n";
 //            
 //            // Reset total charges
 //            totalCharges = 0;
