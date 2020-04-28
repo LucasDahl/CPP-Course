@@ -30,53 +30,53 @@
 // This program is let the user what the banks service charges are for the month.
 
 // Header
-#include <iostream>
-#include <iomanip>
-
-using namespace std;
-
-int main() {
-    
-    // Properties
-    float beginningBalance, monthlyCharge = 0.0; // Set to 0.0 to silence warnings
-    int numberOfChecks;
-    
-    // Ask the user for the number of checks and the staring balance of the account.
-    cout << "What is the starting balance of your account? ";
-    cin >> beginningBalance;
-    cout << "How many checks have you written? ";
-    cin >> numberOfChecks;
-    
-    
-    // format the data
-    if (numberOfChecks < 0) {
-        cout<< "Number of checks written must be\n" << "0 or more.\n";
-        cout << "Please rerun the program and try again.\n";
-    } else if (beginningBalance < 0) {
-        
-        cout << "Your account is over drawn..." << endl;
-        cout << "Please deposit money and try again." << endl;
-        
-    } else {
-        cout << setprecision(2) << fixed;
-        
-        if (numberOfChecks >= 0 && numberOfChecks < 20) {
-            monthlyCharge += (numberOfChecks * .1);
-        } else if (numberOfChecks >= 20 && numberOfChecks <= 39) {
-            monthlyCharge += (numberOfChecks * .08);
-        } else if (numberOfChecks >= 40 && numberOfChecks <= 59) {
-            monthlyCharge += (numberOfChecks * .06);
-        } else if (numberOfChecks >= 60) {
-            monthlyCharge += (numberOfChecks * .04);
-        }
-        
-        cout << "Bank's service fees for the month are: $";
-        cout << monthlyCharge << endl;
-        
-    }
-    
-    
-    // Used to exit the program
-    return 0;
-    
-}
+//#include <iostream>
+//#include <iomanip>
+//
+//using namespace std;
+//
+//int main() {
+//    
+//    // Properties
+//    float beginningBalance, monthlyCharge = 0.0; // Set to 0.0 to silence warnings
+//    int numberOfChecks;
+//    
+//    // Ask the user for the number of checks and the staring balance of the account.
+//    cout << "What is the starting balance of your account? ";
+//    cin >> beginningBalance;
+//    cout << "How many checks have you written? ";
+//    cin >> numberOfChecks;
+//    
+//    
+//    // format the data
+//    if (numberOfChecks < 0) {
+//        cout<< "Number of checks written must be\n" << "0 or more.\n";
+//        cout << "Please rerun the program and try again.\n";
+//    } else if (beginningBalance < 0) {
+//        
+//        cout << "Your account is over drawn..." << endl;
+//        cout << "Please deposit money and try again." << endl;
+//        
+//    } else {
+//        cout << setprecision(2) << fixed;
+//        
+//        if (numberOfChecks >= 0 && numberOfChecks < 20) {
+//            monthlyCharge += (numberOfChecks * .1);
+//        } else if (numberOfChecks >= 20 && numberOfChecks <= 39) {
+//            monthlyCharge += (numberOfChecks * .08);
+//        } else if (numberOfChecks >= 40 && numberOfChecks <= 59) {
+//            monthlyCharge += (numberOfChecks * .06);
+//        } else if (numberOfChecks >= 60) {
+//            monthlyCharge += (numberOfChecks * .04);
+//        }
+//        
+//        cout << "Bank's service fees for the month are: $";
+//        cout << monthlyCharge << endl;
+//        
+//    }
+//    
+//    
+//    // Used to exit the program
+//    return 0;
+//    
+//}
