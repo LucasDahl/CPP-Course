@@ -23,6 +23,9 @@
 		95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */; };
 		956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */; };
 		956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */; };
+		959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */; };
+		959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */; };
+		959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */; };
 		95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95BF94D72449F819004C8113 /* quiz_7.cpp */; };
 		95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF2C82459E9C20057666A /* quiz_13.cpp */; };
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
@@ -57,6 +60,9 @@
 		95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mobileServiceProviderPt2.cpp; sourceTree = "<group>"; };
 		956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap4.7_Conditional Operator.cpp"; sourceTree = "<group>"; };
 		956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap4.8_UserInputValidation.cpp; sourceTree = "<group>"; };
+		959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.5_User_controled_for.cpp; sourceTree = "<group>"; };
+		959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.6_for_loop_accumulator.cpp; sourceTree = "<group>"; };
+		959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.4_for_loop.cpp; sourceTree = "<group>"; };
 		95BF94D42449F819004C8113 /* CPP Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP Course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BF94D72449F819004C8113 /* quiz_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_7.cpp; sourceTree = "<group>"; };
 		95CFF2C82459E9C20057666A /* quiz_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_13.cpp; sourceTree = "<group>"; };
@@ -138,6 +144,9 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */,
+				959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */,
+				959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */,
 				952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */,
 				952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */,
 				952927F82458AABF00F229C0 /* Chap5.3_Sentinel.cpp */,
@@ -206,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95438594245224AA00734A26 /* geometryCalculator.cpp in Sources */,
+				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
@@ -213,10 +223,12 @@
 				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
 				954385902452247300734A26 /* daysInAMonth.cpp in Sources */,
+				959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */,
 				952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */,
 				95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */,
 				954385922452248400734A26 /* bankCharges.cpp in Sources */,
 				9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */,
+				959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */,
 				9543858E2452245E00734A26 /* SoftwareSales.cpp in Sources */,
 				952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */,
 				9543858B2452117C00734A26 /* Chap4.7_ConditionalOperator2.cpp in Sources */,
