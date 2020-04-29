@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 //
@@ -149,8 +150,11 @@ int main() {
         cin >> id;
         employeeID(id, emp);
     
-        
     }
+    
+    // Format
+    cout << setprecision(2) << fixed;
+    cout << endl;
     
     // Display the data
     cout << "The total gross pay is $" << totalgrossP << "." << endl;
