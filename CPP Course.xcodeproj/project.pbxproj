@@ -24,6 +24,7 @@
 		956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */; };
 		956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */; };
 		95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95BF94D72449F819004C8113 /* quiz_7.cpp */; };
+		95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF2C82459E9C20057666A /* quiz_13.cpp */; };
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap4.8_UserInputValidation.cpp; sourceTree = "<group>"; };
 		95BF94D42449F819004C8113 /* CPP Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP Course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BF94D72449F819004C8113 /* quiz_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_7.cpp; sourceTree = "<group>"; };
+		95CFF2C82459E9C20057666A /* quiz_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_13.cpp; sourceTree = "<group>"; };
 		95E192262450FF3000F05A97 /* quiz_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_10.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 				95E192262450FF3000F05A97 /* quiz_10.cpp */,
 				952927F4245756FA00F229C0 /* quiz_11.cpp */,
 				952927FC2458B45500F229C0 /* quiz_12.cpp */,
+				95CFF2C82459E9C20057666A /* quiz_13.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
+				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
 				954385902452247300734A26 /* daysInAMonth.cpp in Sources */,
 				952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */,
