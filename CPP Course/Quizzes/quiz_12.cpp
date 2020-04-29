@@ -6,12 +6,14 @@
 //  Copyright © 2020 Lucas Dahl. All rights reserved.
 //
 
+// This program is used to present a company with the total gross pay, fed, and state taxes.
+
 #include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
 
-//
+// Make sure the ID is 3 digits
 int employeeID(int id, int emp) {
     
     // Properties
