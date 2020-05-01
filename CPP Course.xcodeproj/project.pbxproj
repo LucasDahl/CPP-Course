@@ -26,6 +26,8 @@
 		959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */; };
 		959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */; };
 		959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */; };
+		95B86918245C997F0024960D /* quiz_14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95B86917245C997F0024960D /* quiz_14.cpp */; };
+		95B8691A245C9A280024960D /* Chap5.7_NestedLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95B86919245C9A280024960D /* Chap5.7_NestedLoop.cpp */; };
 		95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95BF94D72449F819004C8113 /* quiz_7.cpp */; };
 		95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF2C82459E9C20057666A /* quiz_13.cpp */; };
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
@@ -63,6 +65,8 @@
 		959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.5_User_controled_for.cpp; sourceTree = "<group>"; };
 		959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.6_for_loop_accumulator.cpp; sourceTree = "<group>"; };
 		959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.4_for_loop.cpp; sourceTree = "<group>"; };
+		95B86917245C997F0024960D /* quiz_14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_14.cpp; sourceTree = "<group>"; };
+		95B86919245C9A280024960D /* Chap5.7_NestedLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.7_NestedLoop.cpp; sourceTree = "<group>"; };
 		95BF94D42449F819004C8113 /* CPP Course */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP Course"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BF94D72449F819004C8113 /* quiz_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_7.cpp; sourceTree = "<group>"; };
 		95CFF2C82459E9C20057666A /* quiz_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_13.cpp; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 				952927F4245756FA00F229C0 /* quiz_11.cpp */,
 				952927FC2458B45500F229C0 /* quiz_12.cpp */,
 				95CFF2C82459E9C20057666A /* quiz_13.cpp */,
+				95B86917245C997F0024960D /* quiz_14.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				95B86919245C9A280024960D /* Chap5.7_NestedLoop.cpp */,
 				959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */,
 				959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */,
 				959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */,
@@ -215,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95438594245224AA00734A26 /* geometryCalculator.cpp in Sources */,
+				95B86918245C997F0024960D /* quiz_14.cpp in Sources */,
 				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
@@ -222,6 +229,7 @@
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
 				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
+				95B8691A245C9A280024960D /* Chap5.7_NestedLoop.cpp in Sources */,
 				954385902452247300734A26 /* daysInAMonth.cpp in Sources */,
 				959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */,
 				952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */,
