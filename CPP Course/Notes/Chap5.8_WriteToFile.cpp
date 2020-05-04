@@ -1,15 +1,16 @@
 //// This program writes user input to a file.
 //#include <iostream>
-//#include <fstream>
+//#include <fstream> // Used to read and write.
 //#include <string>
 //using namespace std;
 //
-//int main()
-//{
-//    ofstream outputFile;
+//int main() {
+//    
+//    ofstream outputFile; // Output file stream. ifstream is input file stream. fstream is used to open files.
+//    // can be named anything above
 //    string name1, name2, name3;
 //    
-//    // Open an output file.
+//    // Open or create an output file. extnsion is required
 //    outputFile.open("Friends.txt");
 //    
 //    // Get the names of three friends.
@@ -22,14 +23,13 @@
 //    cin >> name3;
 //    
 //    // Write the names to the file.
-//    outputFile << name1;
-//    outputFile << name2;
-//    outputFile << name3;
+//    outputFile << name1 << endl;
+//    outputFile << name2 << endl;
+//    outputFile << name3 << endl;
 //    cout << "The names were saved to a file.\n";
 //    
 //    // Close the file
 //    outputFile.close();
 //    
-//    system("pause");
 //    return 0;
 //}
