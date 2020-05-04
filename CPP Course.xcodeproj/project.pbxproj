@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */; };
 		9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512295E244DFFF500A375AA /* quiz_8.cpp */; };
 		952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F4245756FA00F229C0 /* quiz_11.cpp */; };
 		952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */; };
@@ -31,6 +32,7 @@
 		95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95BF94D72449F819004C8113 /* quiz_7.cpp */; };
 		95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF2C82459E9C20057666A /* quiz_13.cpp */; };
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
+		95EC987424608F13003364FF /* Chap5.8_WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EC987324608F13003364FF /* Chap5.8_WriteToFile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.8_WriteToFile.cpp; sourceTree = "<group>"; };
 		9512295E244DFFF500A375AA /* quiz_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_8.cpp; sourceTree = "<group>"; };
 		952927F4245756FA00F229C0 /* quiz_11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_11.cpp; sourceTree = "<group>"; };
 		952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5_RunningTotal.cpp; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		95BF94D72449F819004C8113 /* quiz_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_7.cpp; sourceTree = "<group>"; };
 		95CFF2C82459E9C20057666A /* quiz_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_13.cpp; sourceTree = "<group>"; };
 		95E192262450FF3000F05A97 /* quiz_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_10.cpp; sourceTree = "<group>"; };
+		95EC987324608F13003364FF /* Chap5.8_WriteToFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Chap5.8_WriteToFile.cpp; path = ../../../../../../../.Trash/Chap5.8_WriteToFile.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +153,9 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */,
 				95B86919245C9A280024960D /* Chap5.7_NestedLoop.cpp */,
+				95EC987324608F13003364FF /* Chap5.8_WriteToFile.cpp */,
 				959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */,
 				959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */,
 				959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */,
@@ -222,6 +228,8 @@
 			files = (
 				95438594245224AA00734A26 /* geometryCalculator.cpp in Sources */,
 				95B86918245C997F0024960D /* quiz_14.cpp in Sources */,
+				95EC987424608F13003364FF /* Chap5.8_WriteToFile.cpp in Sources */,
+				9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */,
 				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
