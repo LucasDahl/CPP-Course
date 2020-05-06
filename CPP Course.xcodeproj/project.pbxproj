@@ -36,6 +36,7 @@
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
 		95E34D962462228C009084E1 /* ocean levels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E34D952462228C009084E1 /* ocean levels.cpp */; };
 		95EC987724609904003364FF /* quiz_15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EC987624609904003364FF /* quiz_15.cpp */; };
+		95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +85,9 @@
 		95E34D952462228C009084E1 /* ocean levels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ocean levels.cpp"; sourceTree = "<group>"; };
 		95EC98752460975F003364FF /* Friends.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Friends.txt; path = "CPP Course/Quizzes/Friends.txt"; sourceTree = SOURCE_ROOT; };
 		95EC987624609904003364FF /* quiz_15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_15.cpp; sourceTree = "<group>"; };
+		95F3F0A224623EEB00D8FB2E /* People.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = People.txt; sourceTree = "<group>"; };
+		95F3F0A324623EEB00D8FB2E /* Random.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Random.txt; sourceTree = "<group>"; };
+		95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Using Files - Numeric Processing.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +191,10 @@
 		95E34D942462225F009084E1 /* Homework #4 */ = {
 			isa = PBXGroup;
 			children = (
+				95F3F0A224623EEB00D8FB2E /* People.txt */,
+				95F3F0A324623EEB00D8FB2E /* Random.txt */,
 				95E34D952462228C009084E1 /* ocean levels.cpp */,
+				95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */,
 			);
 			path = "Homework #4";
 			sourceTree = "<group>";
@@ -274,6 +281,7 @@
 				9543858E2452245E00734A26 /* SoftwareSales.cpp in Sources */,
 				952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */,
 				9543858B2452117C00734A26 /* Chap4.7_ConditionalOperator2.cpp in Sources */,
+				95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */,
 				95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */,
 				95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */,
 				95328704244F908600190F1B /* quiz_9.cpp in Sources */,
