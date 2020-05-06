@@ -18,53 +18,53 @@
 // This program is to simulate how much a person would make if the made double the amout of pennis
 // they made the day prior.
 
-#include <iostream>
-#include <iomanip>
-
-using namespace std;
-
-int main() {
-
-    // Properties
-    // Const
-    const int PENNIESPERDAY = 2;
-    
-    // Variables
-    int days = 0;
-    float daySalary = 0.01, totalSalary = 0;
-
-    // Ask the user how manys they worked. Make sure it is a vlaid date.
-    while (days <= 0) {
-
-        cout << "Please enter the total number of days(must be more than zero): ";
-        cin >> days;
-
-    }
-
-    cout << "\n   Day\t\t\tTotal Earned" << endl;
-    cout << "--------------------------------------\n";
-    cout << setprecision(2) << fixed;
-    
-    for(int i = 0; i < days; i++) {
-
-        // Update the total salary.
-        totalSalary += daySalary;
-        
-        cout << "\t" << (i + 1) << "\t\t\t\t$";
-        cout << daySalary << endl;
-        
-        // Get the total salary
-        daySalary *= PENNIESPERDAY;
-
-    }
-
-    // Display the total.
-    cout << "\nTotal salary for " << days;
-    cout << " days is $" << totalSalary << endl;
-    cout << endl;
-
-    // Used to end the program
-    return 0;
-
-}
+//#include <iostream>
+//#include <iomanip>
+//
+//using namespace std;
+//
+//int main() {
+//
+//    // Properties
+//    // Const
+//    const int PENNIESPERDAY = 2;
+//    
+//    // Variables
+//    int days = 0;
+//    float daySalary = 0.01, totalSalary = 0;
+//
+//    // Ask the user how manys they worked. Make sure it is a vlaid date.
+//    while (days <= 0) {
+//
+//        cout << "Please enter the total number of days(must be more than zero): ";
+//        cin >> days;
+//
+//    }
+//
+//    cout << "\n   Day\t\t\tTotal Earned" << endl;
+//    cout << "--------------------------------------\n";
+//    cout << setprecision(2) << fixed;
+//    
+//    for(int i = 0; i < days; i++) {
+//
+//        // Update the total salary.
+//        totalSalary += daySalary;
+//        
+//        cout << "\t" << (i + 1) << "\t\t\t\t$";
+//        cout << daySalary << endl;
+//        
+//        // Get the total salary
+//        daySalary *= PENNIESPERDAY;
+//
+//    }
+//
+//    // Display the total.
+//    cout << "\nTotal salary for " << days;
+//    cout << " days is $" << totalSalary << endl;
+//    cout << endl;
+//
+//    // Used to end the program
+//    return 0;
+//
+//}
 

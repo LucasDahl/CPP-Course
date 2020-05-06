@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9502A4ED24634A1300E1E7BE /* pennies for pay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9502A4EC24634A1300E1E7BE /* pennies for pay.cpp */; };
+		9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9502A4EE246373F100E1E7BE /* Square display.cpp */; };
 		9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */; };
 		9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512295E244DFFF500A375AA /* quiz_8.cpp */; };
 		952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F4245756FA00F229C0 /* quiz_11.cpp */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		9502A4EC24634A1300E1E7BE /* pennies for pay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pennies for pay.cpp"; sourceTree = "<group>"; };
+		9502A4EE246373F100E1E7BE /* Square display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Square display.cpp"; sourceTree = "<group>"; };
 		9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.8_WriteToFile.cpp; sourceTree = "<group>"; };
 		9512295E244DFFF500A375AA /* quiz_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_8.cpp; sourceTree = "<group>"; };
 		952927F4245756FA00F229C0 /* quiz_11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_11.cpp; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				95E34D952462228C009084E1 /* ocean levels.cpp */,
 				95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */,
 				9502A4EC24634A1300E1E7BE /* pennies for pay.cpp */,
+				9502A4EE246373F100E1E7BE /* Square display.cpp */,
 			);
 			path = "Homework #4";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				95E34D962462228C009084E1 /* ocean levels.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
+				9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */,
 				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
 				95B8691A245C9A280024960D /* Chap5.7_NestedLoop.cpp in Sources */,
