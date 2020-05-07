@@ -30,6 +30,7 @@
 		9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */; };
 		9569C64F246481F200E2F4C5 /* Chap6_2_function2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */; };
 		9569C650246481F200E2F4C5 /* Chap6_3_function call.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64D246481F200E2F4C5 /* Chap6_3_function call.cpp */; };
+		9569C6522464872000E2F4C5 /* quiz_17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C6512464872000E2F4C5 /* quiz_17.cpp */; };
 		956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */; };
 		956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */; };
 		957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */; };
@@ -83,6 +84,7 @@
 		9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_1_function1.cpp; sourceTree = "<group>"; };
 		9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_2_function2.cpp; sourceTree = "<group>"; };
 		9569C64D246481F200E2F4C5 /* Chap6_3_function call.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_3_function call.cpp"; sourceTree = "<group>"; };
+		9569C6512464872000E2F4C5 /* quiz_17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_17.cpp; sourceTree = "<group>"; };
 		956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap4.7_Conditional Operator.cpp"; sourceTree = "<group>"; };
 		956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap4.8_UserInputValidation.cpp; sourceTree = "<group>"; };
 		957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.9_TestFileOpen.cpp; sourceTree = "<group>"; };
@@ -117,7 +119,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9543858C24521A3800734A26 /* Homework # 3 */ = {
+		9543858C24521A3800734A26 /* Homework #3 */ = {
 			isa = PBXGroup;
 			children = (
 				9543858D2452245E00734A26 /* SoftwareSales.cpp */,
@@ -127,7 +129,7 @@
 				95438595245224C200734A26 /* mobileServiceProviderPt1.cpp */,
 				95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */,
 			);
-			path = "Homework # 3";
+			path = "Homework #3";
 			sourceTree = "<group>";
 		};
 		95BF94CB2449F819004C8113 = {
@@ -171,6 +173,7 @@
 				95EC987624609904003364FF /* quiz_15.cpp */,
 				957FB8942461EB7100E8CFE3 /* Random.txt */,
 				957FB8922461E6B000E8CFE3 /* quiz_16.cpp */,
+				9569C6512464872000E2F4C5 /* quiz_17.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -179,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				95E34D942462225F009084E1 /* Homework #4 */,
-				9543858C24521A3800734A26 /* Homework # 3 */,
+				9543858C24521A3800734A26 /* Homework #3 */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */,
 				954385922452248400734A26 /* bankCharges.cpp in Sources */,
 				9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */,
+				9569C6522464872000E2F4C5 /* quiz_17.cpp in Sources */,
 				957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */,
 				959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */,
 				9543858E2452245E00734A26 /* SoftwareSales.cpp in Sources */,
