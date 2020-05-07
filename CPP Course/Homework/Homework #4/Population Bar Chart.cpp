@@ -31,30 +31,56 @@
 using namespace std;
 
 int main() {
+    
+    // Properties
     ifstream inputFile;
-    string years;
+    int num, year = 1900;
+    float numOfStars;
+    string population;
 
+    // Message to the user
     cout << "\nPRAIRIEVILLE POPULATION GROWTH\n";
     cout << "(each * represents 1,000 people)\n\n";
 
+    // OPen the file
     inputFile.open("People.txt");
     
     if (inputFile) {
         
-        while (getline(inputFile, years)) {
-            cout << years << endl;
+        while (inputFile >> num) {
+            
+            // Get the number of stars needed
+            numOfStars = num / 1000;
+            
+            // Reset the population string for the new line.
+            population = "";
+            
+            for(int i = 0; i < numOfStars; i ++) {
+                
+                population += "*";
+                
+            }
+            
+            // Display the message to the user.
+            cout << year << " " << population << endl;
+            
+            // Add 20 years
+            year += 20;
+            
         }
         
     } else {
         
-        cout << "Error" << endl;
+        // COuldnt open or read the file.
+        cout << "Error opening the file, please try again." << endl;
         
     }
-
     
-        
-
+    // Close the file
     inputFile.close();
 
+    // Used to exit the program
+    cout << endl;
     return 0;
+    
 }
