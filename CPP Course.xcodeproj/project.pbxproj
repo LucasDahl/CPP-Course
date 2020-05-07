@@ -26,6 +26,10 @@
 		95438594245224AA00734A26 /* geometryCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438593245224AA00734A26 /* geometryCalculator.cpp */; };
 		95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438595245224C200734A26 /* mobileServiceProviderPt1.cpp */; };
 		95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */; };
+		9569C64A246474AA00E2F4C5 /* Population Bar Chart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C649246474AA00E2F4C5 /* Population Bar Chart.cpp */; };
+		9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */; };
+		9569C64F246481F200E2F4C5 /* Chap6_2_function2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */; };
+		9569C650246481F200E2F4C5 /* Chap6_3_function call.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64D246481F200E2F4C5 /* Chap6_3_function call.cpp */; };
 		956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */; };
 		956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */; };
 		957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */; };
@@ -75,6 +79,10 @@
 		95438593245224AA00734A26 /* geometryCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = geometryCalculator.cpp; sourceTree = "<group>"; };
 		95438595245224C200734A26 /* mobileServiceProviderPt1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mobileServiceProviderPt1.cpp; sourceTree = "<group>"; };
 		95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mobileServiceProviderPt2.cpp; sourceTree = "<group>"; };
+		9569C649246474AA00E2F4C5 /* Population Bar Chart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Population Bar Chart.cpp"; sourceTree = "<group>"; };
+		9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_1_function1.cpp; sourceTree = "<group>"; };
+		9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_2_function2.cpp; sourceTree = "<group>"; };
+		9569C64D246481F200E2F4C5 /* Chap6_3_function call.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_3_function call.cpp"; sourceTree = "<group>"; };
 		956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap4.7_Conditional Operator.cpp"; sourceTree = "<group>"; };
 		956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap4.8_UserInputValidation.cpp; sourceTree = "<group>"; };
 		957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.9_TestFileOpen.cpp; sourceTree = "<group>"; };
@@ -179,6 +187,9 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */,
+				9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */,
+				9569C64D246481F200E2F4C5 /* Chap6_3_function call.cpp */,
 				957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */,
 				9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */,
 				95EC98752460975F003364FF /* Friends.txt */,
@@ -199,14 +210,15 @@
 		95E34D942462225F009084E1 /* Homework #4 */ = {
 			isa = PBXGroup;
 			children = (
-				95F3F0A224623EEB00D8FB2E /* People.txt */,
 				95F3F0A324623EEB00D8FB2E /* Random.txt */,
+				95F3F0A224623EEB00D8FB2E /* People.txt */,
 				95E34D952462228C009084E1 /* ocean levels.cpp */,
 				95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */,
 				9502A4EC24634A1300E1E7BE /* pennies for pay.cpp */,
 				9502A4EE246373F100E1E7BE /* Square display.cpp */,
 				9502A4F024637B3D00E1E7BE /* Star Display.cpp */,
 				9502A4F224637CC700E1E7BE /* The Greatest and Least of These.cpp */,
+				9569C649246474AA00E2F4C5 /* Population Bar Chart.cpp */,
 			);
 			path = "Homework #4";
 			sourceTree = "<group>";
@@ -278,6 +290,7 @@
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
 				95E34D962462228C009084E1 /* ocean levels.cpp in Sources */,
+				9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
 				9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */,
 				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
@@ -298,10 +311,13 @@
 				95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */,
 				9502A4ED24634A1300E1E7BE /* pennies for pay.cpp in Sources */,
 				9502A4F124637B3D00E1E7BE /* Star Display.cpp in Sources */,
+				9569C650246481F200E2F4C5 /* Chap6_3_function call.cpp in Sources */,
 				95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */,
 				95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */,
 				95328704244F908600190F1B /* quiz_9.cpp in Sources */,
+				9569C64A246474AA00E2F4C5 /* Population Bar Chart.cpp in Sources */,
 				952927FD2458B45500F229C0 /* quiz_12.cpp in Sources */,
+				9569C64F246481F200E2F4C5 /* Chap6_2_function2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
