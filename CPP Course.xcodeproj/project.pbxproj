@@ -44,6 +44,7 @@
 		95CDCE822465D2CA00737540 /* Chap6_6_PassByCopy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CDCE7F2465D2C900737540 /* Chap6_6_PassByCopy.cpp */; };
 		95CDCE832465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CDCE802465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp */; };
 		95CDCE842465D2CA00737540 /* Chap6_5_MultiplePara.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CDCE812465D2CA00737540 /* Chap6_5_MultiplePara.cpp */; };
+		95CDCE862465D41C00737540 /* quiz_18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CDCE852465D41C00737540 /* quiz_18.cpp */; };
 		95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF2C82459E9C20057666A /* quiz_13.cpp */; };
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
 		95E34D962462228C009084E1 /* ocean levels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E34D952462228C009084E1 /* ocean levels.cpp */; };
@@ -104,6 +105,7 @@
 		95CDCE7F2465D2C900737540 /* Chap6_6_PassByCopy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_6_PassByCopy.cpp; sourceTree = "<group>"; };
 		95CDCE802465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_4_FunctionWParameter.cpp; sourceTree = "<group>"; };
 		95CDCE812465D2CA00737540 /* Chap6_5_MultiplePara.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_5_MultiplePara.cpp; sourceTree = "<group>"; };
+		95CDCE852465D41C00737540 /* quiz_18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_18.cpp; sourceTree = "<group>"; };
 		95CFF2C82459E9C20057666A /* quiz_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_13.cpp; sourceTree = "<group>"; };
 		95E192262450FF3000F05A97 /* quiz_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_10.cpp; sourceTree = "<group>"; };
 		95E34D952462228C009084E1 /* ocean levels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ocean levels.cpp"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				957FB8942461EB7100E8CFE3 /* Random.txt */,
 				957FB8922461E6B000E8CFE3 /* quiz_16.cpp */,
 				9569C6512464872000E2F4C5 /* quiz_17.cpp */,
+				95CDCE852465D41C00737540 /* quiz_18.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
 				95B8691A245C9A280024960D /* Chap5.7_NestedLoop.cpp in Sources */,
 				954385902452247300734A26 /* daysInAMonth.cpp in Sources */,
+				95CDCE862465D41C00737540 /* quiz_18.cpp in Sources */,
 				959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */,
 				95CDCE832465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp in Sources */,
 				952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */,
