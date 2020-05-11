@@ -36,6 +36,7 @@ int main() {
 
 // Functions
 
+// Get the sales per division.
 double getSales(string diviName) {
     
     // Properties
@@ -45,11 +46,27 @@ double getSales(string diviName) {
     cout << "Please enter the total sales for " << diviName << " division: ";
     cin >> sales;
     
+    // Check for valid input.
+    while (sales <= 0) {
+        
+        cout << "sales must be greater than zero... and a number" << endl;
+        
+        // Clear the input
+        cin.clear();
+        
+        // Ask the user again
+        cout << "Please enter the total sales for " << diviName << " division: ";
+        cin >> sales;
+        
+        
+    }
+    
     // Return the sales
     return sales;
     
 }
 
+// Find the highest grossing division.
 void findHighest(double divNE, double divSE, double divNW , double divSW) {
     
     // Properties
@@ -65,8 +82,7 @@ void findHighest(double divNE, double divSE, double divNW , double divSW) {
             
             // Set the value for the highest div
             highestDiv = divSales[i];
-            
-            
+
         }
         
     }
