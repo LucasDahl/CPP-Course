@@ -15,6 +15,7 @@
 		9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512295E244DFFF500A375AA /* quiz_8.cpp */; };
 		9512BB352469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */; };
 		9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB342469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp */; };
+		9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB372469CC5300EDDE13 /* quiz_19.cpp */; };
 		952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F4245756FA00F229C0 /* quiz_11.cpp */; };
 		952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */; };
 		952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */; };
@@ -75,6 +76,7 @@
 		9512295E244DFFF500A375AA /* quiz_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_8.cpp; sourceTree = "<group>"; };
 		9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_7_theReturnStatement.cpp; sourceTree = "<group>"; };
 		9512BB342469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_8_BoolFunction.cpp; sourceTree = "<group>"; };
+		9512BB372469CC5300EDDE13 /* quiz_19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_19.cpp; sourceTree = "<group>"; };
 		952927F4245756FA00F229C0 /* quiz_11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_11.cpp; sourceTree = "<group>"; };
 		952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5_RunningTotal.cpp; sourceTree = "<group>"; };
 		952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.2_user_controled_do_while.cpp; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				957FB8922461E6B000E8CFE3 /* quiz_16.cpp */,
 				9569C6512464872000E2F4C5 /* quiz_17.cpp */,
 				95CDCE852465D41C00737540 /* quiz_18.cpp */,
+				9512BB372469CC5300EDDE13 /* quiz_19.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
+				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
 				95E34D962462228C009084E1 /* ocean levels.cpp in Sources */,
 				95CDCE822465D2CA00737540 /* Chap6_6_PassByCopy.cpp in Sources */,
