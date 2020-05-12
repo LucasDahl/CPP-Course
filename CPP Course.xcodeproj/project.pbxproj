@@ -36,6 +36,8 @@
 		9569C6522464872000E2F4C5 /* quiz_17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C6512464872000E2F4C5 /* quiz_17.cpp */; };
 		956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */; };
 		956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */; };
+		956F830E246B1C54004BC870 /* Chap6_9_Global_Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956F830C246B1C54004BC870 /* Chap6_9_Global_Constants.cpp */; };
+		956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956F830D246B1C54004BC870 /* Chap6_10_static local.cpp */; };
 		957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */; };
 		957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB8922461E6B000E8CFE3 /* quiz_16.cpp */; };
 		959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */; };
@@ -97,6 +99,8 @@
 		9569C6512464872000E2F4C5 /* quiz_17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_17.cpp; sourceTree = "<group>"; };
 		956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap4.7_Conditional Operator.cpp"; sourceTree = "<group>"; };
 		956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap4.8_UserInputValidation.cpp; sourceTree = "<group>"; };
+		956F830C246B1C54004BC870 /* Chap6_9_Global_Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_9_Global_Constants.cpp; sourceTree = "<group>"; };
+		956F830D246B1C54004BC870 /* Chap6_10_static local.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_10_static local.cpp"; sourceTree = "<group>"; };
 		957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.9_TestFileOpen.cpp; sourceTree = "<group>"; };
 		957FB8912461E00900E8CFE3 /* BadListOfNumbers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BadListOfNumbers.txt; sourceTree = "<group>"; };
 		957FB8922461E6B000E8CFE3 /* quiz_16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_16.cpp; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				956F830C246B1C54004BC870 /* Chap6_9_Global_Constants.cpp */,
+				956F830D246B1C54004BC870 /* Chap6_10_static local.cpp */,
 				9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */,
 				9512BB342469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp */,
 				95CDCE802465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp */,
@@ -314,9 +320,11 @@
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
+				956F830E246B1C54004BC870 /* Chap6_9_Global_Constants.cpp in Sources */,
 				95E34D962462228C009084E1 /* ocean levels.cpp in Sources */,
 				95CDCE822465D2CA00737540 /* Chap6_6_PassByCopy.cpp in Sources */,
 				9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */,
+				956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
 				9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */,
 				9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */,
