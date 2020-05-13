@@ -11,7 +11,7 @@ using namespace std;
 
 
 // Prototype methods
-double getSales(double&, string);
+void getSales(double&, string);
 void findHighest(double, double, double, double);
 
 // Maid method
@@ -38,7 +38,7 @@ int main() {
 // Functions
 
 // Get the sales per division.
-double getSales(double& salesFig, string diviName) {
+void getSales(double& salesFig, string diviName) {
 
 
     // Ask the user for the division sales
@@ -57,11 +57,10 @@ double getSales(double& salesFig, string diviName) {
         cout << "Please enter the total sales for " << diviName << " division: ";
         cin >> salesFig;
 
-
     }
 
-    // Return the sales
-    return salesFig;
+//    // Return the sales
+//    return salesFig;
 
 }
 
@@ -72,6 +71,7 @@ void findHighest(double divNE, double divSE, double divNW , double divSW) {
     double divSales[4] = {divNE, divSE, divNW, divSW}, highestDiv;
     string topDiv;
 
+    
     highestDiv = divSales[0];
 
     // Find the highest grossing division.
