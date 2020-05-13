@@ -22,7 +22,8 @@
 //
 //void showLocal()
 //{
-//   int localNum = 5; // Local variable
+//    static int localNum = 5; // Local variable
+//    // Static will keep memory for the lifetime of the proram.
 //
 //   cout << "localNum is " << localNum << endl;
 //   localNum = 99;
