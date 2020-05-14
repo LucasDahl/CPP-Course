@@ -59,6 +59,12 @@
 		95CDCE842465D2CA00737540 /* Chap6_5_MultiplePara.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CDCE812465D2CA00737540 /* Chap6_5_MultiplePara.cpp */; };
 		95CDCE862465D41C00737540 /* quiz_18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CDCE852465D41C00737540 /* quiz_18.cpp */; };
 		95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CFF2C82459E9C20057666A /* quiz_13.cpp */; };
+		95D7FB51246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95D7FB50246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp */; };
+		95D7FB54246DC33700B7870D /* KineticEnergy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95D7FB53246DC33700B7870D /* KineticEnergy.cpp */; };
+		95D7FB56246DC34E00B7870D /* PaintJobEstimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95D7FB55246DC34E00B7870D /* PaintJobEstimator.cpp */; };
+		95D7FB58246DC36300B7870D /* OverloadedHospital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95D7FB57246DC36300B7870D /* OverloadedHospital.cpp */; };
+		95D7FB5A246DC38800B7870D /* LowestScoreDrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95D7FB59246DC38700B7870D /* LowestScoreDrop.cpp */; };
+		95D7FB5C246DC39E00B7870D /* TalentCompetition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95D7FB5B246DC39E00B7870D /* TalentCompetition.cpp */; };
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
 		95E34D962462228C009084E1 /* ocean levels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E34D952462228C009084E1 /* ocean levels.cpp */; };
 		95EC987724609904003364FF /* quiz_15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EC987624609904003364FF /* quiz_15.cpp */; };
@@ -133,6 +139,12 @@
 		95CDCE812465D2CA00737540 /* Chap6_5_MultiplePara.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_5_MultiplePara.cpp; sourceTree = "<group>"; };
 		95CDCE852465D41C00737540 /* quiz_18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_18.cpp; sourceTree = "<group>"; };
 		95CFF2C82459E9C20057666A /* quiz_13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_13.cpp; sourceTree = "<group>"; };
+		95D7FB50246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_12_OverloadingFunction.cpp; sourceTree = "<group>"; };
+		95D7FB53246DC33700B7870D /* KineticEnergy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KineticEnergy.cpp; sourceTree = "<group>"; };
+		95D7FB55246DC34E00B7870D /* PaintJobEstimator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PaintJobEstimator.cpp; sourceTree = "<group>"; };
+		95D7FB57246DC36300B7870D /* OverloadedHospital.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OverloadedHospital.cpp; sourceTree = "<group>"; };
+		95D7FB59246DC38700B7870D /* LowestScoreDrop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LowestScoreDrop.cpp; sourceTree = "<group>"; };
+		95D7FB5B246DC39E00B7870D /* TalentCompetition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TalentCompetition.cpp; sourceTree = "<group>"; };
 		95E192262450FF3000F05A97 /* quiz_10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_10.cpp; sourceTree = "<group>"; };
 		95E34D952462228C009084E1 /* ocean levels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ocean levels.cpp"; sourceTree = "<group>"; };
 		95EC98752460975F003364FF /* Friends.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Friends.txt; path = "CPP Course/Quizzes/Friends.txt"; sourceTree = SOURCE_ROOT; };
@@ -231,6 +243,7 @@
 		95BF94DF244A1C3D004C8113 /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				95D7FB52246DC23F00B7870D /* Homework #5 */,
 				95E34D942462225F009084E1 /* Homework #4 */,
 				9543858C24521A3800734A26 /* Homework #3 */,
 			);
@@ -240,6 +253,7 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				95D7FB50246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp */,
 				953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */,
 				953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */,
 				956F830C246B1C54004BC870 /* Chap6_9_Global_Constants.cpp */,
@@ -267,6 +281,18 @@
 				956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		95D7FB52246DC23F00B7870D /* Homework #5 */ = {
+			isa = PBXGroup;
+			children = (
+				95D7FB53246DC33700B7870D /* KineticEnergy.cpp */,
+				95D7FB55246DC34E00B7870D /* PaintJobEstimator.cpp */,
+				95D7FB57246DC36300B7870D /* OverloadedHospital.cpp */,
+				95D7FB59246DC38700B7870D /* LowestScoreDrop.cpp */,
+				95D7FB5B246DC39E00B7870D /* TalentCompetition.cpp */,
+			);
+			path = "Homework #5";
 			sourceTree = "<group>";
 		};
 		95E34D942462225F009084E1 /* Homework #4 */ = {
@@ -352,11 +378,16 @@
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
+				95D7FB51246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp in Sources */,
 				956F830E246B1C54004BC870 /* Chap6_9_Global_Constants.cpp in Sources */,
 				95E34D962462228C009084E1 /* ocean levels.cpp in Sources */,
+				95D7FB5C246DC39E00B7870D /* TalentCompetition.cpp in Sources */,
 				95CDCE822465D2CA00737540 /* Chap6_6_PassByCopy.cpp in Sources */,
 				956A06DF246B3E440024775C /* userInput.cpp in Sources */,
+				95D7FB54246DC33700B7870D /* KineticEnergy.cpp in Sources */,
+				95D7FB56246DC34E00B7870D /* PaintJobEstimator.cpp in Sources */,
 				9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */,
+				95D7FB5A246DC38800B7870D /* LowestScoreDrop.cpp in Sources */,
 				956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
 				953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */,
@@ -391,6 +422,7 @@
 				9502A4F124637B3D00E1E7BE /* Star Display.cpp in Sources */,
 				9569C650246481F200E2F4C5 /* Chap6_3_function call.cpp in Sources */,
 				95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */,
+				95D7FB58246DC36300B7870D /* OverloadedHospital.cpp in Sources */,
 				95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */,
 				95328704244F908600190F1B /* quiz_9.cpp in Sources */,
 				9569C64A246474AA00E2F4C5 /* Population Bar Chart.cpp in Sources */,
