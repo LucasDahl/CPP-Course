@@ -14,6 +14,7 @@ using namespace std;
 void getSales(double&, string);
 void findHighest(double, double, double, double);
 
+
 // Maid method
 int main() {
 
@@ -59,9 +60,6 @@ void getSales(double& salesFig, string diviName) {
 
     }
 
-//    // Return the sales
-//    return salesFig;
-
 }
 
 // Find the highest grossing division.
@@ -71,7 +69,7 @@ void findHighest(double divNE, double divSE, double divNW , double divSW) {
     double divSales[4] = {divNE, divSE, divNW, divSW}, highestDiv;
     string topDiv;
 
-    
+    // Used to silence the warning
     highestDiv = divSales[0];
 
     // Find the highest grossing division.
