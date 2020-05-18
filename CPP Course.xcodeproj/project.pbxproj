@@ -68,6 +68,8 @@
 		95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E192262450FF3000F05A97 /* quiz_10.cpp */; };
 		95E34D962462228C009084E1 /* ocean levels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95E34D952462228C009084E1 /* ocean levels.cpp */; };
 		95EC987724609904003364FF /* quiz_15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EC987624609904003364FF /* quiz_15.cpp */; };
+		95F2A6382473043900ABDC97 /* ArrayNotes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A6372473043900ABDC97 /* ArrayNotes.cpp */; };
+		95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A63924730FBF00ABDC97 /* quiz_21.cpp */; };
 		95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +151,8 @@
 		95E34D952462228C009084E1 /* ocean levels.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ocean levels.cpp"; sourceTree = "<group>"; };
 		95EC98752460975F003364FF /* Friends.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Friends.txt; path = "CPP Course/Quizzes/Friends.txt"; sourceTree = SOURCE_ROOT; };
 		95EC987624609904003364FF /* quiz_15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_15.cpp; sourceTree = "<group>"; };
+		95F2A6372473043900ABDC97 /* ArrayNotes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayNotes.cpp; sourceTree = "<group>"; };
+		95F2A63924730FBF00ABDC97 /* quiz_21.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_21.cpp; sourceTree = "<group>"; };
 		95F3F0A224623EEB00D8FB2E /* People.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = People.txt; sourceTree = "<group>"; };
 		95F3F0A324623EEB00D8FB2E /* Random.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Random.txt; sourceTree = "<group>"; };
 		95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Using Files - Numeric Processing.cpp"; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				95CDCE852465D41C00737540 /* quiz_18.cpp */,
 				9512BB372469CC5300EDDE13 /* quiz_19.cpp */,
 				953E3A0D246C6E1700DEB70B /* quiz_20.cpp */,
+				95F2A63924730FBF00ABDC97 /* quiz_21.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				956C6153245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp */,
 				9543858A2452117C00734A26 /* Chap4.7_ConditionalOperator2.cpp */,
 				956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */,
+				95F2A6372473043900ABDC97 /* ArrayNotes.cpp */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -375,6 +381,7 @@
 				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
+				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
@@ -388,6 +395,7 @@
 				95D7FB56246DC34E00B7870D /* PaintJobEstimator.cpp in Sources */,
 				9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */,
 				95D7FB5A246DC38800B7870D /* LowestScoreDrop.cpp in Sources */,
+				95F2A6382473043900ABDC97 /* ArrayNotes.cpp in Sources */,
 				956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
 				953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */,
