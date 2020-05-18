@@ -19,14 +19,44 @@
  Demonstrate the function by calling it in a program that asks the user to enter values for mass and velocity.
  */
 
-#include <iostream>
 
+
+#include <iostream>
+#include <cmath>
 using namespace std;
 
+// Prototype functions
+double kineticEnergy(double mass , double velocity);
+
+
+// main method.
 int main() {
-
-
-    // Used to exit the program.
+    
+    // Properties
+    double mass , velocity, kE;
+    
+    // Ask the user for the weight and velocity.
+    cout << "Enter the objects weight in kilograms: ";
+    cin >> mass;
+    cout << "Enter the objects velocity in meters: ";
+    cin >> velocity;
+    
+    // Enter the data into the function.
+    kE = kineticEnergy(mass , velocity);
+    
+    // Let the user know th kinetic energy.
+    cout << " The Kinetic Energy of the object is: " << kE << endl;
+    
+    // Used to exit the program
     return 0;
+    
+}
 
+
+// Perform the calculations.
+double kineticEnergy(double mass , double velocity) {
+    
+    // Return the kinetic energy.
+    return (1.0 / 2.0) * (mass) * pow(velocity,2);
+    
 }
