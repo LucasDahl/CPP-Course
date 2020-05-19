@@ -29,16 +29,16 @@
  A negative value for square footage of wall space
  */
 
-//340 square feet as min
+// 340 square feet as min
 
-#include <iostream>
-
-using namespace std;
-
-int main() {
-
-
-    // Used to exit the program.
-    return 0;
-
-}
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main() {
+//
+//
+//    // Used to exit the program.
+//    return 0;
+//
+//}
