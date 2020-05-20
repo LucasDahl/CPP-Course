@@ -29,7 +29,7 @@
  A negative value for square footage of wall space
  */
 
-// 340 square feet as min
+// 340 min per room
 
 // Header
 #include <iostream>
@@ -73,8 +73,26 @@ void getInfo(double& numOfRooms, double& pricePerGal, double& sqftToPaint) {
         // Get sqft of wall space per room
         cout << "Sq. Ft. of wall space to be painted " << "in room " << (i + 1) << ": ";
         
+        
         // Check for valid input
         sqftToPaint += inputValidate(sqftToPaint, 0);
+        
+        
+        
+        // Room did not mean the min
+        while (sqftToPaint < 340) {
+            
+            cout << "Room must be atleast 340 sq ft.\n";
+            
+            // Get sqft of wall space per room
+            cout << "Sq. Ft. of wall space to be painted " << "in room " << (i + 1) << ": ";
+            
+            
+            // Check for valid input
+            sqftToPaint += inputValidate(sqftToPaint, 0);
+            
+        }
+        
         
     }
     
