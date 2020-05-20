@@ -1,11 +1,11 @@
+////
+////  quiz_20.cpp
+////  CPP Course
+////
+////  Created by Lucas Dahl on 5/13/20.
+////  Copyright © 2020 Lucas Dahl. All rights reserved.
+////
 //
-//  quiz_20.cpp
-//  CPP Course
-//
-//  Created by Lucas Dahl on 5/13/20.
-//  Copyright © 2020 Lucas Dahl. All rights reserved.
-//
-
 //#include <iostream>
 //using namespace std;
 //

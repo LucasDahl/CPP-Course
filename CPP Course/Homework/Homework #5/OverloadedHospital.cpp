@@ -17,9 +17,9 @@
  Hospital medication charges
  Charges for hospital tests, etc.)
  The program should ask for the following data if the patient was an out-patient:
-
  charges for hospital services (lab tests, etc.)
  Hospital medication charges
+ 
  The program should use two overloaded functions called HospitalCharge to calculate the total charges. One of the functions should accept arguments for the in-patient data, while the other function accepts arguments for out-patient information. Both functions should return the total charges.
 
  Input Validation: Do not accept negative numbers for any data.
