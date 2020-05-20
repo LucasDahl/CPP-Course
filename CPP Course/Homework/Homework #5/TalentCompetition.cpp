@@ -25,10 +25,145 @@
 //
 //using namespace std;
 //
+//// Function Prototypes.
+//void getJudgeData(double&);
+//void calcScore(double[], int);
+//double findLowest(double[], int);
+//double findHighest(double[], int);
+//
+//// Main Function
 //int main() {
 //    
+//    // Properties
+//    double scores[5];
+//    int s = 5;
+//    //double avgScore = 0.0;
+//    
+//    cout << "Enter each Judge's score.\n";
+//    
+//    // Read scores of five judges
+//    for(int i = 0; i < 5; i++) {
+//        
+//        cout << "\nEnter Judge #"<< i + 1 <<" score: ";
+//        getJudgeData(scores[i]);
+//        
+//    }
+//    
+//    // Calculate average
+//    calcScore(scores, s);
 //    
 //    // Used to exit the program.
+//    cout << endl;
 //    return 0;
+//    
+//}
+//
+//
+//// Function that reads score from user and validates it
+//void getJudgeData(double& score) {
+//    
+//    // Read score to reference parameter
+//    cin >> score;
+//    
+//    // Validate score and loop till it a valid score is entered
+//    while(score < 0 || score > 10) {
+//        
+//        cout << "\nInvalid Value! Score value should be in range of 0 - 10.. Enter again: ";
+//        cin >> score;
+//        
+//    }
+//}
+//
+//// Function that calculates average of three scores
+//void calcScore(double scores[], int s) {
+//
+//    // Properties
+//    int lowFlag =- 1, highFlag =- 1;
+//    double scoreSum = 0, scoreAverage;
+//    double lowScore = findLowest(scores, s);
+//    double highScore = findHighest(scores, s);
+//    
+//    // Dropping scores
+//    for(int i = 0; i < s; i++) {
+//        
+//        // Dropping low score
+//        if(scores[i] == lowScore && lowFlag == -1) {
+//            
+//            scores[i] = 0;
+//            lowFlag = 0;
+//            
+//        }
+//        
+//        // Dropping high score
+//        if(scores[i] == highScore && highFlag == -1) {
+//            
+//            scores[i] = 0;
+//            highFlag = 0;
+//            
+//        }
+//    }
+//    
+//    // Taking sum of the scores
+//    for(int i = 0; i < s; i++) {
+//        
+//        scoreSum = scoreSum + scores[i];
+//    }
+//    
+//    // Calculating average of the score
+//    scoreAverage = scoreSum / 3;
+//    
+//    // Print Average score
+//    cout<<"\n\nThe average score is: " << scoreAverage << "\n" << endl;
+//    cout << "The Highest score is: " << highScore << endl;
+//    cout << "The Lowest score is: " << lowScore << endl;
+//    
+//}
+//
+//// Function that calculates lowest score
+//double findLowest(double scores[], int s) {
+//    
+//    // Properties
+//    double lowScore;
+//    
+//    // Initially Assume that starting score is the low score
+//    lowScore = scores[0];
+//    
+//    // Loop through five scores to get lowest score
+//    for(int i = 0; i < s; i++) {
+//        
+//        if(scores[i]<lowScore) {
+//            
+//            lowScore = scores[i];
+//            
+//        }
+//            
+//    }
+//    
+//    // Return lowest score
+//    return lowScore;
+//}
+//
+//// Function that calculates highest score
+//double findHighest(double scores[], int s) {
+//    
+//    // Properties
+//    double highScore;
+//    
+//    // Initially Assume that starting score is the high score
+//    highScore = scores[0];
+//    
+//    // Loop through five scores to get highest score
+//    for(int i = 0; i < s ; i++) {
+//        
+//        if(scores[i] > highScore) {
+//            
+//            highScore = scores[i];
+//            
+//        }
+//            
+//    }
+//    
+//    // Return highest score
+//    return highScore;
 //    
 //}

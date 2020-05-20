@@ -75,6 +75,8 @@
 		95F2A642247450A700ABDC97 /* Chap7.1_FileToArray(read).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A63D247450A700ABDC97 /* Chap7.1_FileToArray(read).cpp */; };
 		95F2A643247450A700ABDC97 /* Chap7.2_ArrayToFile(Write).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A63E247450A700ABDC97 /* Chap7.2_ArrayToFile(Write).cpp */; };
 		95F2A64524745DA400ABDC97 /* quiz_22.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A64424745DA400ABDC97 /* quiz_22.cpp */; };
+		95F2A6482475A6BB00ABDC97 /* Chap7.5_ArrayParameter_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A6462475A6BB00ABDC97 /* Chap7.5_ArrayParameter_2.cpp */; };
+		95F2A6492475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F2A6472475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp */; };
 		95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */; };
 /* End PBXBuildFile section */
 
@@ -164,6 +166,8 @@
 		95F2A63E247450A700ABDC97 /* Chap7.2_ArrayToFile(Write).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap7.2_ArrayToFile(Write).cpp"; sourceTree = "<group>"; };
 		95F2A63F247450A700ABDC97 /* numbers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = numbers.txt; sourceTree = "<group>"; };
 		95F2A64424745DA400ABDC97 /* quiz_22.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_22.cpp; sourceTree = "<group>"; };
+		95F2A6462475A6BB00ABDC97 /* Chap7.5_ArrayParameter_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap7.5_ArrayParameter_2.cpp; sourceTree = "<group>"; };
+		95F2A6472475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap7.4_ArrayParameter_1.cpp; sourceTree = "<group>"; };
 		95F3F0A224623EEB00D8FB2E /* People.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = People.txt; sourceTree = "<group>"; };
 		95F3F0A324623EEB00D8FB2E /* Random.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Random.txt; sourceTree = "<group>"; };
 		95F3F0A424623F1B00D8FB2E /* Using Files - Numeric Processing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Using Files - Numeric Processing.cpp"; sourceTree = "<group>"; };
@@ -271,6 +275,8 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				95F2A6472475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp */,
+				95F2A6462475A6BB00ABDC97 /* Chap7.5_ArrayParameter_2.cpp */,
 				95D7FB50246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp */,
 				953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */,
 				953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */,
@@ -401,6 +407,7 @@
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
+				95F2A6492475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
 				95D7FB51246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp in Sources */,
 				956F830E246B1C54004BC870 /* Chap6_9_Global_Constants.cpp in Sources */,
@@ -430,6 +437,7 @@
 				959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */,
 				95CDCE832465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp in Sources */,
 				953E3A0E246C6E1700DEB70B /* quiz_20.cpp in Sources */,
+				95F2A6482475A6BB00ABDC97 /* Chap7.5_ArrayParameter_2.cpp in Sources */,
 				952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */,
 				95EC987724609904003364FF /* quiz_15.cpp in Sources */,
 				95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */,
