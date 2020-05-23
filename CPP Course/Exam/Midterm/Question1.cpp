@@ -36,139 +36,139 @@
  Do not accept a number less than 0 for spools in stock or for shipping and handling charges.
  */
 
-// Header
-#include <iostream>
-#include <string>
-using namespace std;
-
-// Prototype functions
-void getInfo(int&, int&, double&);
-void displayData(int, int, double);
-
-// Main method
-int main() {
-    
-    // Properties
-    int order, stock;
-    double charge;
-    
-    // Ask for the data.
-    getInfo(order, stock, charge);
-    displayData(order, stock, charge);
-    
-    // Display the data.
-    
-    
-    // Used to exit theprogram.
-    cout << endl;
-    return 0;
-    
-}
-
-// Function to get all the info from the user.
-void getInfo(int& order, int& stock, double& specialCharge) {
-    
-    // Properties
-    char answer;
-    double charge;
-    bool flag = false;
-    
-    
-    // ASk for the number of spools ordered
-    do {
-        
-        cout << "How many spools is the custoemr ordering? ";
-        cin >> order;
-        
-        
-        // User did not listen
-        if (order <= 0) {
-            
-            cout << "You must enter a number great than 0..." << endl;
-            
-            // Clear the input stream.
-            cin.clear();
-            cin.ignore();
-        }
-        
-        
-    } while (order < 1);
-    
-    // Ask for the current stock of spools.
-    do {
-        
-        cout << "How many sppols in stock? ";
-        cin >> stock;
-        
-        // User did not listen
-        if (stock < 0) {
-            
-            cout << "You must enter a number great than -1..." << endl;
-            
-            // Clear the input stream.
-            cin.clear();
-            cin.ignore();
-            
-        }
-        
-    } while ( stock < 0);
-    
-    // Ask for special charges.
-    do {
-        
-        cout << "Are there special charges(y or n)? ";
-        cin >> answer;
-        
-        // User did not listen
-        if (tolower(answer) == 'n' || tolower(answer) == 'y') {
-            
-            flag = true;
-            
-        } else {
-            
-            cout << "You must enter y or n..." << endl;
-            cin.clear();
-            
-        }
-        
-    } while (flag != true);
-    
-    if (tolower(answer) == 'y') {
-        
-        
-        cout << "How much are any special shipping and handling charges per roll(Dollar value)? ";
-        cin >> charge;
-        
-        specialCharge = charge * order;
-        
-        
-    } else if (tolower(answer) == 'n') {
-        
-        specialCharge = 10.0 * order;
-        
-    }
-    
-    
-    cout << endl;
-    
-}
-
-// Display status for the order.
-void displayData(int spools, int stock, double charges) {
-    
-    // Properties
-    double subTotal;
-    
-    cout << "Number of spools ready to ship: " << stock << endl;
-    
-    if(spools > stock) {
-        
-        cout << "Number of spools backorder: " << spools - stock << endl;
-    }
-        //calculating subtotal
-        subTotal = spools * 100;
-        cout << "Subtotal of portion ready to ship: $" << subTotal << endl;
-        cout << "Total shipping charges: $" << charges * stock << endl;
-        cout << "Total: " << subTotal + charges << endl;
-    
-}
+//// Header
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//// Prototype functions
+//void getInfo(int&, int&, double&);
+//void displayData(int, int, double);
+//
+//// Main method
+//int main() {
+//    
+//    // Properties
+//    int order, stock;
+//    double charge;
+//    
+//    // Ask for the data.
+//    getInfo(order, stock, charge);
+//    displayData(order, stock, charge);
+//    
+//    // Display the data.
+//    
+//    
+//    // Used to exit theprogram.
+//    cout << endl;
+//    return 0;
+//    
+//}
+//
+//// Function to get all the info from the user.
+//void getInfo(int& order, int& stock, double& specialCharge) {
+//    
+//    // Properties
+//    char answer;
+//    double charge;
+//    bool flag = false;
+//    
+//    
+//    // ASk for the number of spools ordered
+//    do {
+//        
+//        cout << "How many spools is the custoemr ordering? ";
+//        cin >> order;
+//        
+//        
+//        // User did not listen
+//        if (order <= 0) {
+//            
+//            cout << "You must enter a number great than 0..." << endl;
+//            
+//            // Clear the input stream.
+//            cin.clear();
+//            cin.ignore();
+//        }
+//        
+//        
+//    } while (order < 1);
+//    
+//    // Ask for the current stock of spools.
+//    do {
+//        
+//        cout << "How many sppols in stock? ";
+//        cin >> stock;
+//        
+//        // User did not listen
+//        if (stock < 0) {
+//            
+//            cout << "You must enter a number great than -1..." << endl;
+//            
+//            // Clear the input stream.
+//            cin.clear();
+//            cin.ignore();
+//            
+//        }
+//        
+//    } while ( stock < 0);
+//    
+//    // Ask for special charges.
+//    do {
+//        
+//        cout << "Are there special charges(y or n)? ";
+//        cin >> answer;
+//        
+//        // User did not listen
+//        if (tolower(answer) == 'n' || tolower(answer) == 'y') {
+//            
+//            flag = true;
+//            
+//        } else {
+//            
+//            cout << "You must enter y or n..." << endl;
+//            cin.clear();
+//            
+//        }
+//        
+//    } while (flag != true);
+//    
+//    if (tolower(answer) == 'y') {
+//        
+//        
+//        cout << "How much are any special shipping and handling charges per roll(Dollar value)? ";
+//        cin >> charge;
+//        
+//        specialCharge = charge * order;
+//        
+//        
+//    } else if (tolower(answer) == 'n') {
+//        
+//        specialCharge = 10.0 * order;
+//        
+//    }
+//    
+//    
+//    cout << endl;
+//    
+//}
+//
+//// Display status for the order.
+//void displayData(int spools, int stock, double charges) {
+//    
+//    // Properties
+//    double subTotal;
+//    
+//    cout << "Number of spools ready to ship: " << stock << endl;
+//    
+//    if(spools > stock) {
+//        
+//        cout << "Number of spools backorder: " << spools - stock << endl;
+//    }
+//        //calculating subtotal
+//        subTotal = spools * 100;
+//        cout << "Subtotal of portion ready to ship: $" << subTotal << endl;
+//        cout << "Total shipping charges: $" << charges * stock << endl;
+//        cout << "Total: " << subTotal + charges << endl;
+//    
+//}

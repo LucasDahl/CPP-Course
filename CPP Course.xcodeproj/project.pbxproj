@@ -12,8 +12,7 @@
 		9502A4F124637B3D00E1E7BE /* Star Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9502A4F024637B3D00E1E7BE /* Star Display.cpp */; };
 		9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9502A4F224637CC700E1E7BE /* The Greatest and Least of These.cpp */; };
 		95063FD3247976B9008A8E8C /* Question1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FD2247976B9008A8E8C /* Question1.cpp */; };
-		95063FD5247976EE008A8E8C /* Question2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FD4247976EE008A8E8C /* Question2.cpp */; };
-		95063FD724797704008A8E8C /* Question3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FD624797704008A8E8C /* Question3.cpp */; };
+		95063FDA24798353008A8E8C /* Question2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FD924798353008A8E8C /* Question2.cpp */; };
 		9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */; };
 		9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512295E244DFFF500A375AA /* quiz_8.cpp */; };
 		9512BB352469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */; };
@@ -102,8 +101,7 @@
 		9502A4F024637B3D00E1E7BE /* Star Display.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Star Display.cpp"; sourceTree = "<group>"; };
 		9502A4F224637CC700E1E7BE /* The Greatest and Least of These.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The Greatest and Least of These.cpp"; sourceTree = "<group>"; };
 		95063FD2247976B9008A8E8C /* Question1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question1.cpp; sourceTree = "<group>"; };
-		95063FD4247976EE008A8E8C /* Question2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question2.cpp; sourceTree = "<group>"; };
-		95063FD624797704008A8E8C /* Question3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question3.cpp; sourceTree = "<group>"; };
+		95063FD924798353008A8E8C /* Question2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question2.cpp; sourceTree = "<group>"; };
 		9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.8_WriteToFile.cpp; sourceTree = "<group>"; };
 		9512295E244DFFF500A375AA /* quiz_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_8.cpp; sourceTree = "<group>"; };
 		9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_7_theReturnStatement.cpp; sourceTree = "<group>"; };
@@ -204,8 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				95063FD2247976B9008A8E8C /* Question1.cpp */,
-				95063FD4247976EE008A8E8C /* Question2.cpp */,
-				95063FD624797704008A8E8C /* Question3.cpp */,
+				95063FD924798353008A8E8C /* Question2.cpp */,
 			);
 			path = Midterm;
 			sourceTree = "<group>";
@@ -431,7 +428,6 @@
 				9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */,
 				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
-				95063FD724797704008A8E8C /* Question3.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
@@ -490,7 +486,7 @@
 				95F2A642247450A700ABDC97 /* Chap7.1_FileToArray(read).cpp in Sources */,
 				9569C650246481F200E2F4C5 /* Chap6_3_function call.cpp in Sources */,
 				95F2A64524745DA400ABDC97 /* quiz_22.cpp in Sources */,
-				95063FD5247976EE008A8E8C /* Question2.cpp in Sources */,
+				95063FDA24798353008A8E8C /* Question2.cpp in Sources */,
 				95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */,
 				95D7FB58246DC36300B7870D /* OverloadedHospital.cpp in Sources */,
 				95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */,
