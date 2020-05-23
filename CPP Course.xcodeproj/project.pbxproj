@@ -13,6 +13,7 @@
 		9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9502A4F224637CC700E1E7BE /* The Greatest and Least of These.cpp */; };
 		95063FD3247976B9008A8E8C /* Question1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FD2247976B9008A8E8C /* Question1.cpp */; };
 		95063FDA24798353008A8E8C /* Question2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FD924798353008A8E8C /* Question2.cpp */; };
+		95063FDC24798C77008A8E8C /* Question3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95063FDB24798C77008A8E8C /* Question3.cpp */; };
 		9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */; };
 		9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512295E244DFFF500A375AA /* quiz_8.cpp */; };
 		9512BB352469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */; };
@@ -102,6 +103,7 @@
 		9502A4F224637CC700E1E7BE /* The Greatest and Least of These.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The Greatest and Least of These.cpp"; sourceTree = "<group>"; };
 		95063FD2247976B9008A8E8C /* Question1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question1.cpp; sourceTree = "<group>"; };
 		95063FD924798353008A8E8C /* Question2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question2.cpp; sourceTree = "<group>"; };
+		95063FDB24798C77008A8E8C /* Question3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question3.cpp; sourceTree = "<group>"; };
 		9508FBC0246080F400DB5020 /* Chap5.8_WriteToFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.8_WriteToFile.cpp; sourceTree = "<group>"; };
 		9512295E244DFFF500A375AA /* quiz_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_8.cpp; sourceTree = "<group>"; };
 		9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_7_theReturnStatement.cpp; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				95063FD2247976B9008A8E8C /* Question1.cpp */,
 				95063FD924798353008A8E8C /* Question2.cpp */,
+				95063FDB24798C77008A8E8C /* Question3.cpp */,
 			);
 			path = Midterm;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				9508FBC1246080F400DB5020 /* Chap5.8_WriteToFile.cpp in Sources */,
 				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
+				95063FDC24798C77008A8E8C /* Question3.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
