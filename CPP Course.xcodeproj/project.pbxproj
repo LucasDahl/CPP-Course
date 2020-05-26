@@ -52,6 +52,7 @@
 		956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956F830D246B1C54004BC870 /* Chap6_10_static local.cpp */; };
 		957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */; };
 		957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB8922461E6B000E8CFE3 /* quiz_16.cpp */; };
+		959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD68D247DA71000C59E88 /* TicketMaster.cpp */; };
 		959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */; };
 		959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */; };
 		959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */; };
@@ -146,6 +147,7 @@
 		957FB8912461E00900E8CFE3 /* BadListOfNumbers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BadListOfNumbers.txt; sourceTree = "<group>"; };
 		957FB8922461E6B000E8CFE3 /* quiz_16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_16.cpp; sourceTree = "<group>"; };
 		957FB8942461EB7100E8CFE3 /* Random.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Random.txt; sourceTree = "<group>"; };
+		959CD68D247DA71000C59E88 /* TicketMaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicketMaster.cpp; sourceTree = "<group>"; };
 		959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.5_User_controled_for.cpp; sourceTree = "<group>"; };
 		959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.6_for_loop_accumulator.cpp; sourceTree = "<group>"; };
 		959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.4_for_loop.cpp; sourceTree = "<group>"; };
@@ -239,6 +241,14 @@
 			path = "Quiz question";
 			sourceTree = "<group>";
 		};
+		959CD68B247DA60A00C59E88 /* Final project */ = {
+			isa = PBXGroup;
+			children = (
+				959CD68D247DA71000C59E88 /* TicketMaster.cpp */,
+			);
+			path = "Final project";
+			sourceTree = "<group>";
+		};
 		95BF94CB2449F819004C8113 = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +268,7 @@
 		95BF94D62449F819004C8113 /* CPP Course */ = {
 			isa = PBXGroup;
 			children = (
+				959CD68B247DA60A00C59E88 /* Final project */,
 				95063FD124797699008A8E8C /* Exam */,
 				956A06DD246B3E2D0024775C /* Quiz question */,
 				95BF94E0244A1C4D004C8113 /* Notes */,
@@ -494,6 +505,7 @@
 				956A06E2246B3E830024775C /* numbersOutput.cpp in Sources */,
 				95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */,
 				9502A4ED24634A1300E1E7BE /* pennies for pay.cpp in Sources */,
+				959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */,
 				9502A4F124637B3D00E1E7BE /* Star Display.cpp in Sources */,
 				95F2A642247450A700ABDC97 /* Chap7.1_FileToArray(read).cpp in Sources */,
 				9569C650246481F200E2F4C5 /* Chap6_3_function call.cpp in Sources */,
