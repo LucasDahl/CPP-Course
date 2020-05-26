@@ -35,6 +35,7 @@
 		95438594245224AA00734A26 /* geometryCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438593245224AA00734A26 /* geometryCalculator.cpp */; };
 		95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438595245224C200734A26 /* mobileServiceProviderPt1.cpp */; };
 		95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */; };
+		9556E875247D9D5700BD64C0 /* quiz_24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9556E874247D9D5700BD64C0 /* quiz_24.cpp */; };
 		9569C64A246474AA00E2F4C5 /* Population Bar Chart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C649246474AA00E2F4C5 /* Population Bar Chart.cpp */; };
 		9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */; };
 		9569C64F246481F200E2F4C5 /* Chap6_2_function2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */; };
@@ -126,6 +127,7 @@
 		95438593245224AA00734A26 /* geometryCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = geometryCalculator.cpp; sourceTree = "<group>"; };
 		95438595245224C200734A26 /* mobileServiceProviderPt1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mobileServiceProviderPt1.cpp; sourceTree = "<group>"; };
 		95438597245224EE00734A26 /* mobileServiceProviderPt2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mobileServiceProviderPt2.cpp; sourceTree = "<group>"; };
+		9556E874247D9D5700BD64C0 /* quiz_24.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_24.cpp; sourceTree = "<group>"; };
 		9569C649246474AA00E2F4C5 /* Population Bar Chart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Population Bar Chart.cpp"; sourceTree = "<group>"; };
 		9569C64B246481F200E2F4C5 /* Chap6_1_function1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_1_function1.cpp; sourceTree = "<group>"; };
 		9569C64C246481F200E2F4C5 /* Chap6_2_function2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_2_function2.cpp; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				95F2A63F247450A700ABDC97 /* numbers.txt */,
 				95F2A64424745DA400ABDC97 /* quiz_22.cpp */,
 				95F2A64A2475B3A500ABDC97 /* quiz_23.cpp */,
+				9556E874247D9D5700BD64C0 /* quiz_24.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */,
 				95BF94D82449F819004C8113 /* quiz_7.cpp in Sources */,
 				95063FDC24798C77008A8E8C /* Question3.cpp in Sources */,
+				9556E875247D9D5700BD64C0 /* quiz_24.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
