@@ -54,6 +54,9 @@
 		957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB8922461E6B000E8CFE3 /* quiz_16.cpp */; };
 		959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD68D247DA71000C59E88 /* TicketMaster.cpp */; };
 		959CD690247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD68F247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp */; };
+		959CD693247EEE0100C59E88 /* DriversLicense.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD692247EEE0100C59E88 /* DriversLicense.cpp */; };
+		959CD695247EEE6600C59E88 /* TestData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD694247EEE6600C59E88 /* TestData.cpp */; };
+		959CD697247EEE8300C59E88 /* LoShuMagicSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD696247EEE8300C59E88 /* LoShuMagicSquare.cpp */; };
 		959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */; };
 		959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */; };
 		959FE94D2459F2CB00A093A4 /* Chap5.4_for_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */; };
@@ -150,6 +153,9 @@
 		957FB8942461EB7100E8CFE3 /* Random.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Random.txt; sourceTree = "<group>"; };
 		959CD68D247DA71000C59E88 /* TicketMaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicketMaster.cpp; sourceTree = "<group>"; };
 		959CD68F247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap7.7_2D_Array_Argument.cpp; sourceTree = "<group>"; };
+		959CD692247EEE0100C59E88 /* DriversLicense.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DriversLicense.cpp; sourceTree = "<group>"; };
+		959CD694247EEE6600C59E88 /* TestData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestData.cpp; sourceTree = "<group>"; };
+		959CD696247EEE8300C59E88 /* LoShuMagicSquare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoShuMagicSquare.cpp; sourceTree = "<group>"; };
 		959FE9482459F2CA00A093A4 /* Chap5.5_User_controled_for.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.5_User_controled_for.cpp; sourceTree = "<group>"; };
 		959FE9492459F2CA00A093A4 /* Chap5.6_for_loop_accumulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.6_for_loop_accumulator.cpp; sourceTree = "<group>"; };
 		959FE94A2459F2CB00A093A4 /* Chap5.4_for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.4_for_loop.cpp; sourceTree = "<group>"; };
@@ -251,6 +257,16 @@
 			path = "Final project";
 			sourceTree = "<group>";
 		};
+		959CD691247EEDD000C59E88 /* Homework #6 */ = {
+			isa = PBXGroup;
+			children = (
+				959CD692247EEE0100C59E88 /* DriversLicense.cpp */,
+				959CD694247EEE6600C59E88 /* TestData.cpp */,
+				959CD696247EEE8300C59E88 /* LoShuMagicSquare.cpp */,
+			);
+			path = "Homework #6";
+			sourceTree = "<group>";
+		};
 		95BF94CB2449F819004C8113 = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +327,7 @@
 		95BF94DF244A1C3D004C8113 /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				959CD691247EEDD000C59E88 /* Homework #6 */,
 				95D7FB52246DC23F00B7870D /* Homework #5 */,
 				95E34D942462225F009084E1 /* Homework #4 */,
 				9543858C24521A3800734A26 /* Homework #3 */,
@@ -475,6 +492,7 @@
 				956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */,
 				95A8265A247D8BFF0043EB2E /* Chap7.6_2DArray.cpp in Sources */,
 				952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */,
+				959CD697247EEE8300C59E88 /* LoShuMagicSquare.cpp in Sources */,
 				953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */,
 				9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */,
 				9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */,
@@ -498,6 +516,7 @@
 				95CDCE842465D2CA00737540 /* Chap6_5_MultiplePara.cpp in Sources */,
 				9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */,
 				9569C6522464872000E2F4C5 /* quiz_17.cpp in Sources */,
+				959CD693247EEE0100C59E88 /* DriversLicense.cpp in Sources */,
 				957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */,
 				95F2A643247450A700ABDC97 /* Chap7.2_ArrayToFile(Write).cpp in Sources */,
 				959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */,
@@ -516,6 +535,7 @@
 				95063FDA24798353008A8E8C /* Question2.cpp in Sources */,
 				95438596245224C200734A26 /* mobileServiceProviderPt1.cpp in Sources */,
 				959CD690247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp in Sources */,
+				959CD695247EEE6600C59E88 /* TestData.cpp in Sources */,
 				95D7FB58246DC36300B7870D /* OverloadedHospital.cpp in Sources */,
 				95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */,
 				95328704244F908600190F1B /* quiz_9.cpp in Sources */,
