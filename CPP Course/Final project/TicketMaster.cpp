@@ -52,7 +52,7 @@ int main() {
     const int ROWS = 15, SEATS_PER_ROW = 30;
     
     // Variables
-    double totalSales, ticketPrice[ROWS];
+    double totalSales = 0.0, ticketPrice[ROWS];
     int userChoice;
     char totalSeats[ROWS][SEATS_PER_ROW] = {{'#'}};
     
@@ -106,33 +106,9 @@ int main() {
                 
             case 3:
                 
-                // Proeprties
-                char choice;
-                
                 // Call the function to buy tickets.
                 totalSales += ticket(totalSeats);
-                
-                
-                // Ask the user if they want to buy another ticket.
-                do {
-                    
-                    cout << "Buy another ticket? ";
-                    cin >> choice;
-                    
-                    if(choice == 'y' || choice == 'Y') {
-                        
-                        // Call the function to buy tickets.
-                        totalSales += ticket(totalSeats);
-                        
-                    } else if (choice == 'n' || choice == 'N') {
-                        
-                        break;
-                        
-                    }
-                    
-                    
-                } while(choice != 'n');
-                
+      
                 // Ask the user if they want to go back to the menu.
                 userChoice = returnMain();
                 break;
@@ -252,7 +228,7 @@ int returnMain() {
     // Properties
     char choice;
     bool flag = false;
-    int userChoice;
+    int userChoice = 0;
     
     do {
         
@@ -292,34 +268,61 @@ int returnMain() {
 double ticket(char (&seatChart)[15][30]) {
     
     // Properties
-    int rows;
-    double total = 0;
+    int rows, ticketsWanted;
+    double total = 0, bill = 0;
     int column;
+    bool flag = false;
 
-    cout << "Please select Row: ";
-    cin >> rows;
-    cout << "Please select Column(1-30): ";
-    cin >> column;
+    do {
+        
+        cout << "How many tickets do you want to buy? ";
+        cin >> ticketsWanted;
+        
+        if(ticketsWanted >= 1 && ticketsWanted <= 450) {
+            
+            for(int i = 0; i < ticketsWanted; i++) {
+                   
+                   cout << "Please select Row: ";
+                   cin >> rows;
+                   cout << "Please select Column(1-30): ";
+                   cin >> column;
 
-    // get the correct index
-    rows -= 1;
-    column -= 1;
+                   // get the correct index
+                   rows -= 1;
+                   column -= 1;
+                   
+                   if(seatChart[rows][column] != '*') {
+                       
+                       // Make the seat taken.
+                       seatChart[rows][column] = '*';
+                       
+                   } else {
+                       
+                       cout << "That seat is taken, please pick again." << endl;
+                       
+                       // Decrease i by one to make sure the user gets enough tickets.
+                       i --;
+                       
+                   }
+                   
+               }
+            
+            flag = true;
+            
+        } else {
+            
+            cout << "You must pick a valid number.." << endl;
+            
+            cin.clear();
+            cin.ignore();
+            
+        }
+        
+        
+    } while (flag != true);
     
-    if(seatChart[rows][column] != '*') {
-        
-        // Make the seat taken.
-        seatChart[rows][column] = '*';
-        
-    } else {
-        
-        cout << "That seat is taken, please pick again." << endl;
-        
-        // Have the user pick again.
-        ticket(seatChart);
-        
-        
-    }
 
+    cout << endl << "Your total bill is $" << bill << endl;
     
     return total;
     
