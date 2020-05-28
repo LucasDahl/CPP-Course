@@ -37,11 +37,11 @@ using namespace std;
 
 // Prototype function
 int showMenu();
-void showSeats(char[15][30]);
+void showSeats(char (&)[15][30]);
 void openingMessage();
-bool returnMain();
-void desTree();
-
+int returnMain();
+double ticket(char (&)[15][30]);
+void setprice();
 
 // Main function
 int main() {
@@ -50,22 +50,19 @@ int main() {
     
     // Constants
     const int ROWS = 15, SEATS_PER_ROW = 30;
-
-    // Global Variables
-    char totalSeats[ROWS][SEATS_PER_ROW] = {{'#'}};
-    const char TAKEN = '*', EMPTY = '#';
     
     // Variables
-    double totalSales, ticketPrice[ROWS], seatPrice[15];
+    double totalSales, ticketPrice[ROWS];
     int userChoice;
-    bool again;
+    char totalSeats[ROWS][SEATS_PER_ROW] = {{'#'}};
     
     
+    // FOR TESTING
     for(int row = 0; row < ROWS; row++) {
 
         for(int col = 0; col < SEATS_PER_ROW; col++) {
             
-            totalSeats[row][col] = EMPTY;
+            totalSeats[row][col] = '#';
 
         }
     }
@@ -79,80 +76,68 @@ int main() {
     
     
     // Keep asking the user which option they want until they pick a valid number.
-     do {
-         
+    do {
+        
         // Get the users choice from the main menu.
         userChoice = showMenu();
+        
+        // Switch on the users choice.
+        switch (userChoice) {
+                
+                
+            case 1:
+                
+                // Shows the seating chart
+                showSeats(totalSeats);
+                
+                // Ask the user if they want to go back to the menu.
+                userChoice = returnMain();
+                
+                break;
+                
+            case 2:
+                
+ 
+                setprice();
+                
+                // Ask the user if they want to go back to the menu.
+                userChoice = returnMain();
+                break;
+                
+            case 3:
+                
+                totalSales += ticket(totalSeats);
+        
+                // Ask the user if they want to go back to the menu.
+                userChoice = returnMain();
+                break;
+                
+            case 4:
+                
+    
+                
+                // Ask the user if they want to go back to the menu.
+                userChoice = returnMain();
+                break;
+                
+            case 5:
+                
+                // Exit the program
+                break;
+                
+            default:
+                
+                // USer didnt pick a valid choice
+                cout << "You must pick a option 1 - 5...\n" << endl;
+                
+                // Clear the input stream, without this if the user picks something other than an integer
+                // the program will be an endless loop.
+                cin.clear();
+                cin.ignore();
+                
+                
+        }
          
-         if(userChoice <= 1 || userChoice <= 5) {
-             
-             // Switch on the users choice.
-             switch (userChoice) {
-                     
-                     
-                 case 1:
-                     
-                     // Shows the seating chart
-                     showSeats(totalSeats);
-                     
-                     // Ask the user if they want to go back to the menu.
-                     again = returnMain();
-                     if(again == true) {
-                         userChoice = showMenu();
-                     }
-                     
-                 case 2:
-                     
-                     
-                     // Ask the user if they want to go back to the menu.
-                     again = returnMain();
-                     if(again == true) {
-                         userChoice = showMenu();
-                     }
-                     
-                 case 3:
-                     
-                     // Ask the user if they want to go back to the menu.
-                     again = returnMain();
-                     if(again == true) {
-                         userChoice = showMenu();
-                     }
-                     
-                 case 4:
-                     
-                     // Ask the user if they want to go back to the menu.
-                     again = returnMain();
-                     if(again == true) {
-                         userChoice = showMenu();
-                     }
-                     
-                 case 5:
-                     
-                     // Exit the program
-                     break;
-                     
-                 default:
-                     
-                     cout << "Error... please restart the program..";
-                     
-             }
-             
-         } else if(userChoice <= 0 || userChoice >= 6) {
-             
-             // USer didnt pick a valid choice
-             cout << "You must pick a option 1 - 5...\n" << endl;
-             
-             // Clear the input stream, without this if the user picks something other than an integer
-             // the program will be an endless loop.
-             cin.clear();
-             cin.ignore();
-             
-         } else {
-             
-             // This is a saftey, as it logically shouldnt ever fall into this else statment.
-             cout << "Error... please restart the program..";
-             
-         }
          
      } while(userChoice != 5);
     
@@ -193,7 +178,7 @@ int showMenu() {
 }
 
 // A function that shows the user the seating chart in a grid.
-void showSeats(char seatChart[15][30]) {
+void showSeats(char (&seatChart)[15][30]) {
     
     // Set the title and let the user know which numbers are 10, 20, and 30.
     cout << "Seats ------------------- 10 ---------------- 20 ---------------- 30" << endl;
@@ -237,36 +222,77 @@ void openingMessage() {
 }
 
 // A function to ask the user if they need to return to the main menu.
-bool returnMain() {
+int returnMain() {
     
     // Properties
     char choice;
+    bool flag = false;
+    int userChoice;
     
-    cout << "\nReturn to the main menu(use y or n)? ";
-    cin >> choice;
+    do {
+        
+        // Evaluate what the user picked.
+        
+        cout << "\nReturn to the main menu(use y or n)? ";
+        cin >> choice;
+        if(choice == 'y' || choice == 'Y') {
+            
+            userChoice = 1;
+            flag = true;
+            
+        } else if(choice == 'n' || choice == 'n')  {
+            
+            userChoice = 5;
+            flag = true;
+            
+        } else {
+            
+            cout << "You must pick y or n..." << endl;
+            cin.clear();
+            cin.ignore();
+            
+        }
+        
+        
+    } while(flag != true);
     
-    // Evaluate what the user picked.
-    if(islower(choice) == 'y') {
-        
-        return true;
-        
-    } else {
-        
-        return false;
-        
-    }
-    
+   
+   
+   return userChoice;
     
 }
 
 
 // This function handles the user input and decision making.
-void desTree() {
+double ticket(char (&seatChart)[15][30]) {
     
-    // properties
-    int choice;
+    // Properties
+    int rows;
+    double total = 0;
+    int column;
+
+    cout << "Please select Row: ";
+    cin >> rows;
+    cout << "Please select Column(1-30): ";
+    cin >> column;
+
+    // get the correct index
+    rows -= 1;
+    column -= 1;
     
+    // Make the seat taken.
+    seatChart[rows][column] = '*';
+
     
+    return total;
+    
+}
+
+// Set the price to for the tickets.
+void setprice() {
+    
+    cout << "Row 1 to Row 8--- Adult: $15, Child: $12" << endl;
+    cout << "Row 9 to Row 15-- Adult: $12, Child: $10" << endl;
     
 }
 
