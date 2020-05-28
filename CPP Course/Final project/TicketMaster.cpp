@@ -106,8 +106,33 @@ int main() {
                 
             case 3:
                 
+                // Proeprties
+                char choice;
+                
+                // Call the function to buy tickets.
                 totalSales += ticket(totalSeats);
-        
+                
+                
+                // Ask the user if they want to buy another ticket.
+                do {
+                    
+                    cout << "Buy another ticket? ";
+                    cin >> choice;
+                    
+                    if(choice == 'y' || choice == 'Y') {
+                        
+                        // Call the function to buy tickets.
+                        totalSales += ticket(totalSeats);
+                        
+                    } else if (choice == 'n' || choice == 'N') {
+                        
+                        break;
+                        
+                    }
+                    
+                    
+                } while(choice != 'n');
+                
                 // Ask the user if they want to go back to the menu.
                 userChoice = returnMain();
                 break;
@@ -280,8 +305,20 @@ double ticket(char (&seatChart)[15][30]) {
     rows -= 1;
     column -= 1;
     
-    // Make the seat taken.
-    seatChart[rows][column] = '*';
+    if(seatChart[rows][column] != '*') {
+        
+        // Make the seat taken.
+        seatChart[rows][column] = '*';
+        
+    } else {
+        
+        cout << "That seat is taken, please pick again." << endl;
+        
+        // Have the user pick again.
+        ticket(seatChart);
+        
+        
+    }
 
     
     return total;
@@ -291,8 +328,8 @@ double ticket(char (&seatChart)[15][30]) {
 // Set the price to for the tickets.
 void setprice() {
     
-    cout << "Row 1 to Row 8--- Adult: $15, Child: $12" << endl;
-    cout << "Row 9 to Row 15-- Adult: $12, Child: $10" << endl;
+    cout << "Row 1 to Row 8 Adult: $15" << endl;
+    cout << "Row 9 to Row 15 Adult: $12" << endl;
     
 }
 
