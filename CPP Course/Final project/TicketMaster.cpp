@@ -37,10 +37,10 @@ using namespace std;
 
 // Prototype function
 int showMenu();
-void showSeats(char (&)[15][30]);
+void showSeats(char [15][30]);
 void openingMessage();
 int returnMain();
-double ticket(char (&)[15][30]);
+double ticket(char [15][30]);
 void setprice();
 
 // Main function
@@ -134,16 +134,12 @@ int main() {
                 // Clear the input stream, without this if the user picks something other than an integer
                 // the program will be an endless loop.
                 cin.clear();
-                cin.ignore();
-                
+                cin.ignore(); 
                 
         }
          
          
      } while(userChoice != 5);
-    
-    
-    
     
     // Used to exit the program
     return 0;
@@ -179,7 +175,7 @@ int showMenu() {
 }
 
 // A function that shows the user the seating chart in a grid.
-void showSeats(char (&seatChart)[15][30]) {
+void showSeats(char seatChart[15][30]) {
     
     // Set the title and let the user know which numbers are 10, 20, and 30.
     cout << "Seats ------------------- 10 ---------------- 20 ---------------- 30" << endl;
@@ -265,7 +261,7 @@ int returnMain() {
 
 
 // This function handles the user input and decision making.
-double ticket(char (&seatChart)[15][30]) {
+double ticket(char seatChart[15][30]) {
     
     // Properties
     int rows, ticketsWanted;
