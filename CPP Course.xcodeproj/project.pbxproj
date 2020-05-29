@@ -26,6 +26,7 @@
 		952927FD2458B45500F229C0 /* quiz_12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927FC2458B45500F229C0 /* quiz_12.cpp */; };
 		9529DA82248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA81248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp */; };
 		9529DA84248184A8005A7C64 /* Chap9.1_indirection Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */; };
+		9529DA872481B0CF005A7C64 /* rainFall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA862481B0CF005A7C64 /* rainFall.cpp */; };
 		95328704244F908600190F1B /* quiz_9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95328703244F908600190F1B /* quiz_9.cpp */; };
 		953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */; };
 		953E3A0C246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */; };
@@ -125,6 +126,7 @@
 		952927FC2458B45500F229C0 /* quiz_12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_12.cpp; sourceTree = "<group>"; };
 		9529DA81248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.2_Pointer Variable.cpp"; sourceTree = "<group>"; };
 		9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.1_indirection Operator.cpp"; sourceTree = "<group>"; };
+		9529DA862481B0CF005A7C64 /* rainFall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rainFall.cpp; sourceTree = "<group>"; };
 		95328703244F908600190F1B /* quiz_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_9.cpp; sourceTree = "<group>"; };
 		953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_10_Default Argument.cpp"; sourceTree = "<group>"; };
 		953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_11_Reference Variable.cpp"; sourceTree = "<group>"; };
@@ -226,6 +228,14 @@
 				95063FDB24798C77008A8E8C /* Question3.cpp */,
 			);
 			path = Midterm;
+			sourceTree = "<group>";
+		};
+		9529DA852481B0BA005A7C64 /* lab */ = {
+			isa = PBXGroup;
+			children = (
+				9529DA862481B0CF005A7C64 /* rainFall.cpp */,
+			);
+			path = lab;
 			sourceTree = "<group>";
 		};
 		9543858C24521A3800734A26 /* Homework #3 */ = {
@@ -331,6 +341,7 @@
 		95BF94DF244A1C3D004C8113 /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				9529DA852481B0BA005A7C64 /* lab */,
 				959CD691247EEDD000C59E88 /* Homework #6 */,
 				95D7FB52246DC23F00B7870D /* Homework #5 */,
 				95E34D942462225F009084E1 /* Homework #4 */,
@@ -478,6 +489,7 @@
 				9556E875247D9D5700BD64C0 /* quiz_24.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
+				9529DA872481B0CF005A7C64 /* rainFall.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
 				95F2A6492475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp in Sources */,
