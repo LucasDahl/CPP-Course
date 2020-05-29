@@ -24,6 +24,8 @@
 		952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */; };
 		952927FB2458AABF00F229C0 /* Chap5.3_Sentinel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F82458AABF00F229C0 /* Chap5.3_Sentinel.cpp */; };
 		952927FD2458B45500F229C0 /* quiz_12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927FC2458B45500F229C0 /* quiz_12.cpp */; };
+		9529DA82248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA81248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp */; };
+		9529DA84248184A8005A7C64 /* Chap9.1_indirection Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */; };
 		95328704244F908600190F1B /* quiz_9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95328703244F908600190F1B /* quiz_9.cpp */; };
 		953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */; };
 		953E3A0C246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */; };
@@ -121,6 +123,8 @@
 		952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.2_user_controled_do_while.cpp; sourceTree = "<group>"; };
 		952927F82458AABF00F229C0 /* Chap5.3_Sentinel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.3_Sentinel.cpp; sourceTree = "<group>"; };
 		952927FC2458B45500F229C0 /* quiz_12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_12.cpp; sourceTree = "<group>"; };
+		9529DA81248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.2_Pointer Variable.cpp"; sourceTree = "<group>"; };
+		9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.1_indirection Operator.cpp"; sourceTree = "<group>"; };
 		95328703244F908600190F1B /* quiz_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_9.cpp; sourceTree = "<group>"; };
 		953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_10_Default Argument.cpp"; sourceTree = "<group>"; };
 		953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_11_Reference Variable.cpp"; sourceTree = "<group>"; };
@@ -338,6 +342,8 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */,
+				9529DA81248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp */,
 				959CD68F247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp */,
 				95A82659247D8BFF0043EB2E /* Chap7.6_2DArray.cpp */,
 				95F2A6472475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp */,
@@ -486,6 +492,7 @@
 				956A06DF246B3E440024775C /* userInput.cpp in Sources */,
 				95D7FB54246DC33700B7870D /* KineticEnergy.cpp in Sources */,
 				95D7FB56246DC34E00B7870D /* PaintJobEstimator.cpp in Sources */,
+				9529DA84248184A8005A7C64 /* Chap9.1_indirection Operator.cpp in Sources */,
 				9569C64E246481F200E2F4C5 /* Chap6_1_function1.cpp in Sources */,
 				95D7FB5A246DC38800B7870D /* LowestScoreDrop.cpp in Sources */,
 				95F2A6382473043900ABDC97 /* ArrayNotes.cpp in Sources */,
@@ -513,6 +520,7 @@
 				95EC987724609904003364FF /* quiz_15.cpp in Sources */,
 				95E192272450FF3000F05A97 /* quiz_10.cpp in Sources */,
 				954385922452248400734A26 /* bankCharges.cpp in Sources */,
+				9529DA82248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp in Sources */,
 				95CDCE842465D2CA00737540 /* Chap6_5_MultiplePara.cpp in Sources */,
 				9512295F244DFFF500A375AA /* quiz_8.cpp in Sources */,
 				9569C6522464872000E2F4C5 /* quiz_17.cpp in Sources */,

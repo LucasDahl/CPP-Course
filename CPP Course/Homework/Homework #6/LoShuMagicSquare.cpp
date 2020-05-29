@@ -21,13 +21,44 @@
 
  */
 
-//#include <iostream>
-//using namespace std;
-//
-//int main() {
-//
-//
-//    // Used to exit the program.
-//    return 0;
-//
-//}
+#include <iostream>
+using namespace std;
+
+// Prototype functions
+void loShuMagic(int [3][3]);
+
+// Main function
+int main() {
+
+    // Properties
+    int
+    arraySet1[3][3] = {{4, 9, 2}, {3, 5, 7}, {8, 1, 6}},
+    arraySet2[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    
+    // Test both arrays
+    loShuMagic(arraySet1);
+    loShuMagic(arraySet2);
+
+    // Used to exit the program.
+    return 0;
+
+}
+
+// Functions
+void loShuMagic(int array[3][3]) {
+    
+    // Properties
+    int matrixSum, colSum, rowSum;
+    
+    for(int row = 0; row < 3; row++) {
+        
+        for(int col = 0; col < 3; col++) {
+            
+            
+        }
+        
+    }
+    
+    
+}
+
