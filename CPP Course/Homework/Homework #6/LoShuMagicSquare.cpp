@@ -47,22 +47,22 @@ int main() {
     };
     
   
-    
+    // Display both matrixs
     displayMatrix(firstMatrix);
     
     if (isMagicSquare(firstMatrix)) {
-        cout << "Above 2D Array is a Magic Square" << endl;
+        cout << "\nAbove 2D Array is a Magic Square" << endl;
     } else {
-       cout << "Above 2D Array is not a magic Square" << endl;
+       cout << "\nAbove 2D Array is not a magic Square" << endl;
     }
         
     
     displayMatrix(secondMatrix);
     
     if (isMagicSquare(secondMatrix)) {
-        cout << "Above 2D Array is a Magic Square" << endl;
+        cout << "\nAbove 2D Array is a Magic Square" << endl;
     } else {
-        cout << "Above 2D Array is not a magic Square" << endl;
+        cout << "\nAbove 2D Array is not a magic Square" << endl;
     }
 
     
@@ -79,14 +79,17 @@ bool isMagicSquare(int matrix[3][3]) {
     // Calculate the sum of first diagonal
     for (int row = 0; row < 3; row++) {
         
+        // From top right to bottom left
         diagonalSum = diagonalSum + matrix[row][row];
         
     }
        
     // Calculate the sum of second diagonal
     for (int row = 0; row < 3; row++) {
-        
+    
+        // From top left to bottom right.
         secondDiagonalSum = secondDiagonalSum + matrix[row][3 - 1 - row];
+        
     }
     
     
@@ -135,9 +138,6 @@ bool isMagicSquare(int matrix[3][3]) {
 
 // function to display matrix
 void displayMatrix(int matrix[3][3]) {
-    
-    
-    
     for (int row = 0; row < 3; row++) {
         
         for (int col = 0; col < 3; col++)
