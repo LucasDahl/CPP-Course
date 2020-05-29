@@ -3,8 +3,7 @@
 //#include <iostream>
 //using namespace std;
 //
-//int main()
-//{
+//int main() {
 //   int x = 25, y = 50, z = 75;  // Three int variables
 //   int *ptr = nullptr;          // Pointer variable
 //
@@ -27,4 +26,5 @@
 //   cout << "Once again, here are the values of x, y, and z:\n";
 //   cout << x << " " << y << " " << z << endl;
 //   return 0;
+//    
 //}
