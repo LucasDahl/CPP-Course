@@ -28,6 +28,8 @@
 		9529DA84248184A8005A7C64 /* Chap9.1_indirection Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */; };
 		9529DA872481B0CF005A7C64 /* rainFall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA862481B0CF005A7C64 /* rainFall.cpp */; };
 		9529DA892481B436005A7C64 /* monkeyBusiness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9529DA882481B436005A7C64 /* monkeyBusiness.cpp */; };
+		952B636924857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952B636724857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp */; };
+		952B636A24857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952B636824857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp */; };
 		95328704244F908600190F1B /* quiz_9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95328703244F908600190F1B /* quiz_9.cpp */; };
 		953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */; };
 		953E3A0C246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */; };
@@ -129,6 +131,8 @@
 		9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.1_indirection Operator.cpp"; sourceTree = "<group>"; };
 		9529DA862481B0CF005A7C64 /* rainFall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rainFall.cpp; sourceTree = "<group>"; };
 		9529DA882481B436005A7C64 /* monkeyBusiness.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monkeyBusiness.cpp; sourceTree = "<group>"; };
+		952B636724857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap9.3_ArrayandPointer.cpp; sourceTree = "<group>"; };
+		952B636824857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap9.3_ArrayAndPointer_2.cpp; sourceTree = "<group>"; };
 		95328703244F908600190F1B /* quiz_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_9.cpp; sourceTree = "<group>"; };
 		953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_10_Default Argument.cpp"; sourceTree = "<group>"; };
 		953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_11_Reference Variable.cpp"; sourceTree = "<group>"; };
@@ -357,6 +361,8 @@
 			isa = PBXGroup;
 			children = (
 				9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */,
+				952B636824857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp */,
+				952B636724857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp */,
 				9529DA81248184A4005A7C64 /* Chap9.2_Pointer Variable.cpp */,
 				959CD68F247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp */,
 				95A82659247D8BFF0043EB2E /* Chap7.6_2DArray.cpp */,
@@ -492,10 +498,12 @@
 				9556E875247D9D5700BD64C0 /* quiz_24.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
+				952B636924857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp in Sources */,
 				9529DA872481B0CF005A7C64 /* rainFall.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
 				9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */,
 				95F2A6492475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp in Sources */,
+				952B636A24857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
 				95063FD3247976B9008A8E8C /* Question1.cpp in Sources */,
 				9529DA892481B436005A7C64 /* monkeyBusiness.cpp in Sources */,
