@@ -22,7 +22,6 @@
 //    cout << "\nnum1 = " << num1 << endl;
 //    cout << "\nnum2 = " << num2 << endl;
 //
-//    system("pause");
 //    return 0;
 //
 //}
@@ -35,7 +34,7 @@
 //
 //void swap(int* x, int* y)
 //{
-//    //Temporary varaible 
+//    //Temporary varaible
 //    int temp;
 //
 //    temp = *x;
