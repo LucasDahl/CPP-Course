@@ -57,6 +57,11 @@
 		956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */; };
 		956F830E246B1C54004BC870 /* Chap6_9_Global_Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956F830C246B1C54004BC870 /* Chap6_9_Global_Constants.cpp */; };
 		956F830F246B1C54004BC870 /* Chap6_10_static local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 956F830D246B1C54004BC870 /* Chap6_10_static local.cpp */; };
+		9572197824881CEF00376C8C /* Chap9.7_Return_Pointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9572197424881CEF00376C8C /* Chap9.7_Return_Pointer.cpp */; };
+		9572197924881CEF00376C8C /* Chap9.8_Return pointer to argument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9572197524881CEF00376C8C /* Chap9.8_Return pointer to argument.cpp */; };
+		9572197A24881CEF00376C8C /* Chap9.9_Return dynamic allocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9572197624881CEF00376C8C /* Chap9.9_Return dynamic allocation.cpp */; };
+		9572197B24881CEF00376C8C /* Chap9.6_dynamic_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9572197724881CEF00376C8C /* Chap9.6_dynamic_array.cpp */; };
+		9572197F2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9572197E2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp */; };
 		957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */; };
 		957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB8922461E6B000E8CFE3 /* quiz_16.cpp */; };
 		959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD68D247DA71000C59E88 /* TicketMaster.cpp */; };
@@ -164,6 +169,11 @@
 		956C61552452070200C422D3 /* Chap4.8_UserInputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap4.8_UserInputValidation.cpp; sourceTree = "<group>"; };
 		956F830C246B1C54004BC870 /* Chap6_9_Global_Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_9_Global_Constants.cpp; sourceTree = "<group>"; };
 		956F830D246B1C54004BC870 /* Chap6_10_static local.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_10_static local.cpp"; sourceTree = "<group>"; };
+		9572197424881CEF00376C8C /* Chap9.7_Return_Pointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap9.7_Return_Pointer.cpp; sourceTree = "<group>"; };
+		9572197524881CEF00376C8C /* Chap9.8_Return pointer to argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.8_Return pointer to argument.cpp"; sourceTree = "<group>"; };
+		9572197624881CEF00376C8C /* Chap9.9_Return dynamic allocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap9.9_Return dynamic allocation.cpp"; sourceTree = "<group>"; };
+		9572197724881CEF00376C8C /* Chap9.6_dynamic_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap9.6_dynamic_array.cpp; sourceTree = "<group>"; };
+		9572197E2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quiz_27_ArrayDuplication.cpp; sourceTree = "<group>"; };
 		957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.9_TestFileOpen.cpp; sourceTree = "<group>"; };
 		957FB8912461E00900E8CFE3 /* BadListOfNumbers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BadListOfNumbers.txt; sourceTree = "<group>"; };
 		957FB8922461E6B000E8CFE3 /* quiz_16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_16.cpp; sourceTree = "<group>"; };
@@ -351,6 +361,7 @@
 				95F2A64A2475B3A500ABDC97 /* quiz_23.cpp */,
 				9556E874247D9D5700BD64C0 /* quiz_24.cpp */,
 				95CB79742486D08D002FE8FA /* quiz_26.cpp */,
+				9572197E2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp */,
 			);
 			path = Quizzes;
 			sourceTree = "<group>";
@@ -370,6 +381,10 @@
 		95BF94E0244A1C4D004C8113 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				9572197724881CEF00376C8C /* Chap9.6_dynamic_array.cpp */,
+				9572197424881CEF00376C8C /* Chap9.7_Return_Pointer.cpp */,
+				9572197524881CEF00376C8C /* Chap9.8_Return pointer to argument.cpp */,
+				9572197624881CEF00376C8C /* Chap9.9_Return dynamic allocation.cpp */,
 				95CB79712486CA7B002FE8FA /* Chap9.4_Pointer Swap.cpp */,
 				95CB79702486CA7A002FE8FA /* Chap9.4_Pointer_Parameter.cpp */,
 				9529DA83248184A8005A7C64 /* Chap9.1_indirection Operator.cpp */,
@@ -517,6 +532,7 @@
 				95F2A6492475A6BB00ABDC97 /* Chap7.4_ArrayParameter_1.cpp in Sources */,
 				952B636A24857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp in Sources */,
 				9502A4F324637CC700E1E7BE /* The Greatest and Least of These.cpp in Sources */,
+				9572197A24881CEF00376C8C /* Chap9.9_Return dynamic allocation.cpp in Sources */,
 				95063FD3247976B9008A8E8C /* Question1.cpp in Sources */,
 				9529DA892481B436005A7C64 /* monkeyBusiness.cpp in Sources */,
 				95D7FB51246DBE6000B7870D /* Chap6_12_OverloadingFunction.cpp in Sources */,
@@ -539,6 +555,7 @@
 				953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */,
 				9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */,
 				9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */,
+				9572197824881CEF00376C8C /* Chap9.7_Return_Pointer.cpp in Sources */,
 				95CB79722486CA7B002FE8FA /* Chap9.4_Pointer_Parameter.cpp in Sources */,
 				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
@@ -567,6 +584,7 @@
 				957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */,
 				95F2A643247450A700ABDC97 /* Chap7.2_ArrayToFile(Write).cpp in Sources */,
 				959FE94B2459F2CB00A093A4 /* Chap5.5_User_controled_for.cpp in Sources */,
+				9572197B24881CEF00376C8C /* Chap9.6_dynamic_array.cpp in Sources */,
 				9543858E2452245E00734A26 /* SoftwareSales.cpp in Sources */,
 				95F2A641247450A700ABDC97 /* Chap7.4_NoBounds.cpp in Sources */,
 				952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */,
@@ -575,6 +593,7 @@
 				956A06E2246B3E830024775C /* numbersOutput.cpp in Sources */,
 				95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */,
 				9502A4ED24634A1300E1E7BE /* pennies for pay.cpp in Sources */,
+				9572197924881CEF00376C8C /* Chap9.8_Return pointer to argument.cpp in Sources */,
 				959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */,
 				9502A4F124637B3D00E1E7BE /* Star Display.cpp in Sources */,
 				95F2A642247450A700ABDC97 /* Chap7.1_FileToArray(read).cpp in Sources */,
@@ -588,6 +607,7 @@
 				95438598245224EE00734A26 /* mobileServiceProviderPt2.cpp in Sources */,
 				95328704244F908600190F1B /* quiz_9.cpp in Sources */,
 				9569C64A246474AA00E2F4C5 /* Population Bar Chart.cpp in Sources */,
+				9572197F2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp in Sources */,
 				956A06E6246B3FC20024775C /* output1thr8.cpp in Sources */,
 				952927FD2458B45500F229C0 /* quiz_12.cpp in Sources */,
 				9569C64F246481F200E2F4C5 /* Chap6_2_function2.cpp in Sources */,
