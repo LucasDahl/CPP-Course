@@ -4,8 +4,8 @@
 using namespace std;
 
 // Function prototype
-int *duplicateArray(const int[5], int);
-void displayArray(const int[5], int);
+int *duplicateArray(const int[], int);
+void displayArray(const int[], int);
 
 int main() {
     // Define constants for the array sizes.
@@ -36,15 +36,17 @@ int main() {
     displayArray(dup2, SIZE2);
     displayArray(dup3, SIZE3);
     
-    // Free the dynamically allocated memory and
-    // set the pointers to 0.
+    // Free the dynamically allocated memory
     delete[] dup1;
     delete[] dup2;
     delete[] dup3;
     
+    // set the pointers to 0.
+    dup1 = nullptr;
+    dup2 = nullptr;
+    dup3 = nullptr;
     
-    
-    
+    // Used to exit the program
     return 0;
     
 }
