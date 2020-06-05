@@ -1,32 +1,32 @@
+////
+////  DriversLicense.cpp
+////  CPP Course
+////
+////  Created by Lucas Dahl on 5/27/20.
+////  Copyright © 2020 Lucas Dahl. All rights reserved.
+////
+//// MARK: Task
+///*
+// 
+// (10 pt) The local Driver’s License Office has asked you to write a program that grades the written portion of the driver’s license exam. The exam has 20 multiple-choice questions. Here are the correct answers:
+// 1. A     2. B       3. A      4. C
 //
-//  DriversLicense.cpp
-//  CPP Course
+// 5. D     6. A       7. C       8. C
 //
-//  Created by Lucas Dahl on 5/27/20.
-//  Copyright © 2020 Lucas Dahl. All rights reserved.
+// 9. B    10. B    11. D   12. A
 //
-// MARK: Task
-/*
- 
- (10 pt) The local Driver’s License Office has asked you to write a program that grades the written portion of the driver’s license exam. The exam has 20 multiple-choice questions. Here are the correct answers:
- 1. A     2. B       3. A      4. C
-
- 5. D     6. A       7. C       8. C
-
- 9. B    10. B    11. D   12. A
-
- 13. B  14. C  15. B  16. D
-
- 17. C  18. D  19. D  20. B
-
- Your program should store the correct answers shown above in an array. It should ask the user to enter the student’s answers for each of the 20 questions, and the answers should be stored in another array.
-
- After the student’s answers have been entered, the program should
-
- display a message indicating whether the student passed or failed the exam. (A student must correctly answer 15 of the 20 questions to pass the exam.)
- It should then display the total number of correctly answered questions, the total number of incorrectly answered questions, and a list showing the question numbers of the incorrectly answered questions.
- */
-
+// 13. B  14. C  15. B  16. D
+//
+// 17. C  18. D  19. D  20. B
+//
+// Your program should store the correct answers shown above in an array. It should ask the user to enter the student’s answers for each of the 20 questions, and the answers should be stored in another array.
+//
+// After the student’s answers have been entered, the program should
+//
+// display a message indicating whether the student passed or failed the exam. (A student must correctly answer 15 of the 20 questions to pass the exam.)
+// It should then display the total number of correctly answered questions, the total number of incorrectly answered questions, and a list showing the question numbers of the incorrectly answered questions.
+// */
+//
 //#include <iostream>
 //using namespace std;
 //
@@ -47,7 +47,7 @@
 //        // Check for a vliad input.
 //        if(tolower(student[i]) < 'a'|| tolower(student[i]) > 'd') {
 //
-//            cout<<"invalid entry, must be A, B, C, or D." << endl;
+//            cout << "invalid entry, must be A, B, C, or D." << endl;
 //
 //            // Make sure that the variable doesnt count an invalid input
 //            i--;

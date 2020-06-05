@@ -19,14 +19,14 @@
 //// o View ticket sales report (total price for ticket purchased) o Exit the program
 //// • When the user selects the display seats menu option, the seats chart similar to the one shown below should be displayed.
 //// It should indicate which seats are already sold (*) and which are still available for purchase (#).
-//// 
-//// 
-//// 
+////
+////
+////
 //// • When the user selects the request tickets menu option, the program should prompt for the number of seats the patron wants. A function should then be called and passed this information so that it can handle the ticket request. If any of the requested seats do not exist, or are not available, an appropriate message should be displayed. If the seats exist and are available, a bill should be printed that lists the number of requested seats, the price per seat in the requested row, and the total price for the seats. Then the user program should ask if the patron wishes to purchase these seats.
 //// • When the user selects the sales report menu option, a report that tells how many seats have been sold, how many are still available, and how much money has been collected so far for the sold seats should be displayed. Think about how your team will either calculate or collect and store this information so that it will be available when it is needed for the report.
 //// • The seat availability information can be read in from the SeatAvailability.txt file (you need to create your own file). This file contains 450 characters (15 rows with 30 characters each), indicating which seats have been sold (‘*’) and which are available (‘#’). Initially all seats are available. However, once the program runs and the file is updated, some of the seats will have been sold.
 //// • When the day of ticket sales is over and the quit menu choice is selected, the program needs to be able to write the updated seat availability data back out to the file.
-//// 
+////
 //// */
 ////
 ////=============
@@ -58,7 +58,6 @@
 //    double totalSales = 0.0;
 //    int userChoice;
 //    char totalSeats[ROWS][SEATS_PER_ROW] = { {'#'} };
-//
 //    ofstream file("SeatAvailability.txt");
 //  
 //
@@ -138,6 +137,7 @@
 //            break;
 //
 //        case 4:
+//                
 //            // Shows the seating chart
 //            showSeats(totalSeats);
 //            cout << endl;
@@ -185,8 +185,7 @@
 //
 //    // Get the user choice.
 //    cin >> choice;
-//
-//
+//    
 //    // Return the choice
 //    return choice;
 //
@@ -257,14 +256,13 @@
 //
 //        cout << "\nReturn to the main menu(use y or n)? ";
 //        cin >> choice;
-//        if (choice == 'y' || choice == 'Y')
-//        {
+//        if (choice == 'y' || choice == 'Y') {
 //
 //            userChoice = 1;
 //            flag = true;
 //
 //        }
-//        else if (choice == 'n' || choice == 'n')
+//        else if (choice == 'n' || choice == 'N')
 //        {
 //
 //            userChoice = 4;
@@ -275,6 +273,8 @@
 //        {
 //
 //            cout << "You must pick y or n..." << endl;
+//            
+//            // Clear the input stream
 //            cin.clear();
 //            cin.ignore();
 //
@@ -282,9 +282,8 @@
 //
 //
 //    } while (flag != true);
-//
-//
-//
+//    
+//    //
 //    return userChoice;
 //
 //}
@@ -312,6 +311,9 @@
 //                cin >> rows;
 //                cout << "Please select Column(1-30): ";
 //                cin >> column;
+//                
+//                // TODO: input val
+//                
 //                
 //                
 //                
@@ -356,6 +358,7 @@
 //
 //            cout << "You must pick a valid number.." << endl;
 //
+//            //
 //            cin.clear();
 //            cin.ignore();
 //
@@ -387,3 +390,6 @@
 //    cout << "So far the total revune earned is $ " << total << endl;
 //
 //}
+//
+//// TODO: Read and wright to the file.
+//

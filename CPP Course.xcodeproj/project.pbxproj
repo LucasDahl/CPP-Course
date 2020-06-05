@@ -64,6 +64,11 @@
 		9572197F2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9572197E2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp */; };
 		957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB88F2461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp */; };
 		957FB8932461E6B000E8CFE3 /* quiz_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 957FB8922461E6B000E8CFE3 /* quiz_16.cpp */; };
+		95902B57248AF8F10010F174 /* ReverseArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95902B56248AF8F10010F174 /* ReverseArray.cpp */; };
+		95902B59248AF9480010F174 /* NewArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95902B58248AF9480010F174 /* NewArray.cpp */; };
+		95902B5B248AF97D0010F174 /* newLargeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95902B5A248AF97D0010F174 /* newLargeArray.cpp */; };
+		95902B5D248AF9B50010F174 /* StatisticalData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95902B5C248AF9B50010F174 /* StatisticalData.cpp */; };
+		95902B5F248AF9F10010F174 /* AllocateArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95902B5E248AF9F10010F174 /* AllocateArray.cpp */; };
 		959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD68D247DA71000C59E88 /* TicketMaster.cpp */; };
 		959CD690247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD68F247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp */; };
 		959CD693247EEE0100C59E88 /* DriversLicense.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959CD692247EEE0100C59E88 /* DriversLicense.cpp */; };
@@ -178,6 +183,11 @@
 		957FB8912461E00900E8CFE3 /* BadListOfNumbers.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BadListOfNumbers.txt; sourceTree = "<group>"; };
 		957FB8922461E6B000E8CFE3 /* quiz_16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_16.cpp; sourceTree = "<group>"; };
 		957FB8942461EB7100E8CFE3 /* Random.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Random.txt; sourceTree = "<group>"; };
+		95902B56248AF8F10010F174 /* ReverseArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseArray.cpp; sourceTree = "<group>"; };
+		95902B58248AF9480010F174 /* NewArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NewArray.cpp; sourceTree = "<group>"; };
+		95902B5A248AF97D0010F174 /* newLargeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = newLargeArray.cpp; sourceTree = "<group>"; };
+		95902B5C248AF9B50010F174 /* StatisticalData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StatisticalData.cpp; sourceTree = "<group>"; };
+		95902B5E248AF9F10010F174 /* AllocateArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllocateArray.cpp; sourceTree = "<group>"; };
 		959CD68D247DA71000C59E88 /* TicketMaster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TicketMaster.cpp; sourceTree = "<group>"; };
 		959CD68F247EE0B800C59E88 /* Chap7.7_2D_Array_Argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap7.7_2D_Array_Argument.cpp; sourceTree = "<group>"; };
 		959CD692247EEE0100C59E88 /* DriversLicense.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DriversLicense.cpp; sourceTree = "<group>"; };
@@ -288,6 +298,18 @@
 			path = "Quiz question";
 			sourceTree = "<group>";
 		};
+		95902B55248AF8A70010F174 /* Homework #7 */ = {
+			isa = PBXGroup;
+			children = (
+				95902B56248AF8F10010F174 /* ReverseArray.cpp */,
+				95902B58248AF9480010F174 /* NewArray.cpp */,
+				95902B5A248AF97D0010F174 /* newLargeArray.cpp */,
+				95902B5C248AF9B50010F174 /* StatisticalData.cpp */,
+				95902B5E248AF9F10010F174 /* AllocateArray.cpp */,
+			);
+			path = "Homework #7";
+			sourceTree = "<group>";
+		};
 		959CD68B247DA60A00C59E88 /* Final project */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +391,7 @@
 		95BF94DF244A1C3D004C8113 /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				95902B55248AF8A70010F174 /* Homework #7 */,
 				9529DA852481B0BA005A7C64 /* lab */,
 				959CD691247EEDD000C59E88 /* Homework #6 */,
 				95D7FB52246DC23F00B7870D /* Homework #5 */,
@@ -515,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95902B57248AF8F10010F174 /* ReverseArray.cpp in Sources */,
 				957FB8902461E00400E8CFE3 /* Chap5.9_TestFileOpen.cpp in Sources */,
 				95438594245224AA00734A26 /* geometryCalculator.cpp in Sources */,
 				95B86918245C997F0024960D /* quiz_14.cpp in Sources */,
@@ -557,6 +581,7 @@
 				9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */,
 				9572197824881CEF00376C8C /* Chap9.7_Return_Pointer.cpp in Sources */,
 				95CB79722486CA7B002FE8FA /* Chap9.4_Pointer_Parameter.cpp in Sources */,
+				95902B5D248AF9B50010F174 /* StatisticalData.cpp in Sources */,
 				95CFF2C92459E9C20057666A /* quiz_13.cpp in Sources */,
 				952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */,
 				95F2A640247450A700ABDC97 /* Chap7.3_ParallelArrays.cpp in Sources */,
@@ -568,6 +593,7 @@
 				95CDCE862465D41C00737540 /* quiz_18.cpp in Sources */,
 				959FE94C2459F2CB00A093A4 /* Chap5.6_for_loop_accumulator.cpp in Sources */,
 				95CDCE832465D2CA00737540 /* Chap6_4_FunctionWParameter.cpp in Sources */,
+				95902B5B248AF97D0010F174 /* newLargeArray.cpp in Sources */,
 				953E3A0E246C6E1700DEB70B /* quiz_20.cpp in Sources */,
 				95F2A6482475A6BB00ABDC97 /* Chap7.5_ArrayParameter_2.cpp in Sources */,
 				952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */,
@@ -594,6 +620,7 @@
 				95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */,
 				9502A4ED24634A1300E1E7BE /* pennies for pay.cpp in Sources */,
 				9572197924881CEF00376C8C /* Chap9.8_Return pointer to argument.cpp in Sources */,
+				95902B5F248AF9F10010F174 /* AllocateArray.cpp in Sources */,
 				959CD68E247DA71000C59E88 /* TicketMaster.cpp in Sources */,
 				9502A4F124637B3D00E1E7BE /* Star Display.cpp in Sources */,
 				95F2A642247450A700ABDC97 /* Chap7.1_FileToArray(read).cpp in Sources */,
@@ -608,6 +635,7 @@
 				95328704244F908600190F1B /* quiz_9.cpp in Sources */,
 				9569C64A246474AA00E2F4C5 /* Population Bar Chart.cpp in Sources */,
 				9572197F2488272C00376C8C /* Quiz_27_ArrayDuplication.cpp in Sources */,
+				95902B59248AF9480010F174 /* NewArray.cpp in Sources */,
 				956A06E6246B3FC20024775C /* output1thr8.cpp in Sources */,
 				952927FD2458B45500F229C0 /* quiz_12.cpp in Sources */,
 				9569C64F246481F200E2F4C5 /* Chap6_2_function2.cpp in Sources */,
