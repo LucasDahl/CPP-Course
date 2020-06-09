@@ -24,7 +24,8 @@ void print(int[], int);
 int main() {
     
     // Properties
-    int size = 10, array[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },*reversedArray = reverse(array, size);
+    int size = 10, array[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+    *reversedArray = reverse(array, size);
     
     // Print the original array
     cout << "\nThe original array is" << endl;
@@ -53,7 +54,9 @@ int *reverse(int array[],int size) {
     // Loop through and add to the array
     for(int i = 0; i < size; i++) {
         
-        copyReverse[i] = array[size -i -1];
+        // Get the correct index by subtracting one from the current loop
+        // To reverse the array
+        copyReverse[i] = array[size - i - 1];
         
     }
     
