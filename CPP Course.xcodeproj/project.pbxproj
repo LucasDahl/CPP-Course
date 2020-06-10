@@ -148,6 +148,7 @@
 		952B636724857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap9.3_ArrayandPointer.cpp; sourceTree = "<group>"; };
 		952B636824857A3100ECC904 /* Chap9.3_ArrayAndPointer_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap9.3_ArrayAndPointer_2.cpp; sourceTree = "<group>"; };
 		952B636B248582ED00ECC904 /* Quiz 25_Pointer_Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Quiz 25_Pointer_Array.cpp"; sourceTree = "<group>"; };
+		952C2A412491640600B155B9 /* SeatAvailability.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SeatAvailability.txt; sourceTree = "<group>"; };
 		95328703244F908600190F1B /* quiz_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_9.cpp; sourceTree = "<group>"; };
 		953E3A09246C61FE00DEB70B /* Chap6_10_Default Argument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_10_Default Argument.cpp"; sourceTree = "<group>"; };
 		953E3A0A246C61FE00DEB70B /* Chap6_11_Reference Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Chap6_11_Reference Variable.cpp"; sourceTree = "<group>"; };
@@ -314,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				959CD68D247DA71000C59E88 /* TicketMaster.cpp */,
+				952C2A412491640600B155B9 /* SeatAvailability.txt */,
 			);
 			path = "Final project";
 			sourceTree = "<group>";

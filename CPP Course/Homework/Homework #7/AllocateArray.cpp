@@ -16,123 +16,106 @@
  Input validation: Do not accept negative numbers for test scores.
  */
 
-// Header
-//#include <iostream>
-//
-//#include <iomanip>
-//
-//using namespace std;
-//
-//void bubbleSort(double *, int);
-//
-//double arrAvgScore(double *, int);
-//
-//int main()
-//
-//{
-//
-//double *arr,total = 0.0, avg;
-//
-//int n,count;
-//
-//cout << "Enter number of test : ";
-//
-//cin >> n;
-//
-//arr = new double[n];
-//
-//cout << "Enter the test scores below.\n";
-//
-//for (int i = 0; i < n; i++)
-//
-//{
-//
-//cout << "Test Score " << (i + 1) << ": ";
-//
-//cin >> arr[i];
-//
-//while (arr[i]<0 || arr[i]>99)
-//
-//{
-//
-//cout << "Enter positive score " << endl;
-//
-//cout << "Please enter again: ";
-//
-//cin >> arr[i];
-//
-//}
-//
-//}
-//
-//bubbleSort(arr, n);
-//
-//avg = arrAvgScore(arr, n);
-//
-//cout << fixed << showpoint << setprecision(2);
-//
-//cout << "The test scores, sorted in ascending order, are: \n";
-//
-//for (int i = 0; i < n; i++)
-//
-//cout << arr[i] << " ";
-//
-//cout << endl;
-//
-//cout << "The average of all the test score is " << avg << endl;
-//
-//delete [] arr;
-//
-//arr = 0;
-//
-//system ("pause");
-//
-//return 0;
-//
-//}
-//
-//
-//
-//void bubbleSort(double *arr, int n) {
-//
-//for (int i = n - 1; i > 0; i--) {
-//
-//for (int j = 0; j < i; j++) {
-//
-//if ((arr[j] > arr[j+1])) {
-//
-//double temp = arr[j];
-//
-//arr[j] = arr[j+1];
-//
-//arr[j+1] = temp;
-//
-//}
-//
-//}
-//
-//}
-//
-//}
-//
-//double arrAvgScore (double *arr, int size)
-//
-//{
-//
-//double total = 0,average;
-//
-//int numTest;
-//
-//for (int count = 0; count < size; count++)
-//
-//{
-//
-//total += arr[count];
-//
-//}
-//
-//average = total / size;
-//
-//return average;
-//
-//}
+//Header
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+// Protoype functions
+void displayScores(double *, int);
+double arrAvgScore(double *, int);
+
+int main() {
+    
+    // Properties
+    double *array, avg;
+    int numOfScores;
+    
+    // ASk the user for the number of scores to enter
+    cout << "Enter number of test : ";
+    cin >> numOfScores;
+    
+    // Make the array ptr
+    array = new double[numOfScores];
+    
+    // Ask the user to enter every test score
+    cout << "Enter the test scores below.\n";
+    
+    for (int i = 0; i < numOfScores; i++) {
+        
+        cout << "Test Score " << (i + 1) << ": ";
+        
+        cin >> array[i];
+        
+        while (array[i]<0 || array[i]>99) {
+            
+            cout << "Enter positive score " << endl;
+            
+            cout << "Please enter again: ";
+            
+            cin >> array[i];
+            
+        }
+        
+    }
+    
+    cout << "The scores are: " << endl;
+    displayScores(array, numOfScores);
+    
+    // Get the average
+    avg = arrAvgScore(array, numOfScores);
+    
+    // Format the ddata
+    cout << fixed << showpoint << setprecision(2);
+    
+    
+    // Create the space
+    cout << endl;
+    
+    // Display the average
+    cout << "The average of all the test score is " << avg << endl;
+    
+    // Delete the array
+    delete [] array;
+    
+    // Set it to zero
+    array = 0;
+    
+    // Used to exit the program
+    cout << endl;
+    return 0;
+    
+}
+
+// This function displays each score and what test it was.
+void displayScores(double *array, int num) {
+    
+    for(int i = 0; i < num; i++ ) {
+        
+        cout << "Test " << i + 1 << " score was " << array[i] << endl;
+        
+    }
+    
+}
+
+// This function gets the average score
+double arrAvgScore(double *arr, int size) {
+    
+    // Properties
+    double total = 0,average;
+    //int numTest;
+    
+    // Loop through each test.
+    for (int count = 0; count < size; count++) {
+        
+        total += arr[count];
+        
+    }
+    
+    // Calculate the average
+    average = total / size;
+    
+    // Return the average
+    return average;
+    
+}
