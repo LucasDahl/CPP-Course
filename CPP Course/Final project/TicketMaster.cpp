@@ -32,7 +32,7 @@
 //=============
 // MARK: Header
 //=============
-
+//
 //#include <iostream>
 //#include <fstream>
 //using namespace std;
@@ -141,29 +141,29 @@
 //            // Shows the seating chart
 //            showSeats(totalSeats);
 //            cout << endl;
-//            file.close();
-//            // Exit the program
-//            break;
-//
-//        default:
-//
-//            // USer didnt pick a valid choice
-//            cout << "You must pick a option 1 - 4...\n" << endl;
-//
-//            // Clear the input stream, without this if the user picks something other than an integer
-//            // the program will be an endless loop.
-//            cin.clear();
-//            cin.ignore();
-//
+//                file.close();
+//                // Exit the program
+//                break;
+//                
+//            default:
+//                
+//                // USer didnt pick a valid choice
+//                cout << "You must pick a option 1 - 4...\n" << endl;
+//                
+//                // Clear the input stream, without this if the user picks something other than an integer
+//                // the program will be an endless loop.
+//                cin.clear();
+//                cin.ignore();
+//                
 //        }
-//
-//
+//        
+//        
 //    } while (userChoice != 4);
-//
+//    
 //    
 //    // Used to exit the program
 //    return 0;
-//
+//    
 //}
 ////================
 //// MARK: Functions
@@ -171,10 +171,10 @@
 //
 //// A function the shows the menu to the user.
 //int showMenu() {
-//
+//    
 //    // Properties
 //    int choice;
-//
+//    
 //    // Display the menu for the user to pick an option.
 //    cout << "\t\tMain Menu\n" << endl;
 //    cout << "Please pick from the following options..\n" << endl;
@@ -182,149 +182,170 @@
 //    cout << "2). Purchase ticket" << endl;
 //    cout << "3). View ticket sales report(total price for ticket purchased)" << endl;
 //    cout << "4). Exit the program" << endl;
-//
+//    
 //    // Get the user choice.
 //    cin >> choice;
 //    
 //    // Return the choice
 //    return choice;
-//
+//    
 //}
 //
 //// A function that shows the user the seating chart in a grid.
 //void showSeats(char seatChart[15][30])
 //{
-//
+//    
 //    ofstream file("SeatAvailability.txt");
 //    file << "Seats ------------------- 10 ---------------- 20 ---------------- 30" << endl;
 //    cout << "Seats ------------------- 10 ---------------- 20 ---------------- 30" << endl;
-//
+//    
 //    file << "\t\t 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0\n";
 //    cout << "\t\t 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0\n";
-//
+//    
 //    // Loop through each row and column.
 //    for (int row = 0; row < 15; row++)
 //    {
-//
+//        
 //        // Display the row and row number
 //        cout << endl << "Row " << (row + 1) << "\t";
 //        file << endl << "Row " << (row + 1) << "\t";
-//
+//        
 //        // Display each column
 //        for (int col = 0; col < 30; col++)
 //        {
-//
+//            
 //            // Set the spaces inbetween each seat
 //            file << " " << seatChart[row][col];
 //            cout << " " << seatChart[row][col];
 //            
 //        }
 //        
-//
+//        
 //    }
-//
+//    
 //    // Get to the new line.
 //    cout << endl;
-//
+//    
 //}
 //
 //// A simple function that shows the opening message.
 //void openingMessage() {
-//
+//    
 //    // Properties
 //    string starLine = "\n*******************************************************\n";
-//
+//    
 //    // Display the total opening message.
 //    cout << starLine << endl;
 //    cout << "\t\t\t\t\t\tTMS" << endl;
 //    cout << "\n\t\tWelcome to the Ticket Management System" << endl;
 //    cout << starLine << endl;
-//
+//    
 //}
 //
 //// A function to ask the user if they need to return to the main menu.
 //int returnMain() {
-//
+//    
 //    // Properties
 //    char choice;
 //    bool flag = false;
 //    int userChoice = 0;
-//
+//    
 //    do {
-//
+//        
 //        // Evaluate what the user picked.
-//
+//        
 //        cout << "\nReturn to the main menu(use y or n)? ";
 //        cin >> choice;
 //        if (choice == 'y' || choice == 'Y') {
-//
+//            
 //            userChoice = 1;
 //            flag = true;
-//
+//            
 //        }
 //        else if (choice == 'n' || choice == 'N')
 //        {
-//
+//            
 //            userChoice = 4;
 //            flag = true;
-//
+//            
 //        }
 //        else
 //        {
-//
+//            
 //            cout << "You must pick y or n..." << endl;
 //            
 //            // Clear the input stream
 //            cin.clear();
 //            cin.ignore();
-//
+//            
 //        }
-//
-//
+//        
+//        
 //    } while (flag != true);
 //    
 //    //
 //    return userChoice;
-//
+//    
 //}
 //
 //
 //// This function handles the user input and decision making.
 //double ticket(char seatChart[15][30], double& salesTotal) {
-//
+//    
 //    // Properties
 //    int rows, ticketsWanted;
 //    double total = 0, bill = 0;
 //    int column;
-//    bool flag = false;
-//
+//    bool flag = false, flag2 = false, flag3 = false;
+//    
 //    do {
-//
+//        
 //        cout << "How many tickets do you want to buy? ";
 //        cin >> ticketsWanted;
-//
+//        
 //        if (ticketsWanted >= 1 && ticketsWanted <= 450) {
-//
+//            
 //            for (int i = 0; i < ticketsWanted; i++) {
-//
-//                cout << "Please select Row: ";
-//                cin >> rows;
-//                cout << "Please select Column(1-30): ";
-//                cin >> column;
 //                
-//                // TODO: input val
+//                do {
+//                    
+//                    cout << "Please select Row: ";
+//                    cin >> rows;
+//                    
+//                    if (rows > 0 && rows < 16) {
+//                        
+//                        flag2 = true;
+//                        
+//                    } else {
+//                        
+//                        cout << "Please pick a number between 1 and 15" << endl;
+//                        
+//                    }
+//                    
+//                    
+//                } while(flag2 != true);
 //                
+//                do {
+//                    
+//                    cout << "Please select Column(1-30): ";
+//                    cin >> column;
+//                    
+//                    if (column > 0 && column < 31) {
+//                        
+//                        flag3 = true;
+//                        
+//                    } else {
+//                        
+//                        cout << "Please pick a number between 1 and 30" << endl;
+//                        
+//                        
+//                    }
+//                    
+//                } while(flag3 != true);
 //                
-//                
-//                
-//                // get the correct index
-//                rows -= 1;
-//                column -= 1;
 //                
 //                if (seatChart[rows][column] != '*') {
-//                    
-//                    // Make the seat taken.
-//                    seatChart[rows][column] = '*';
+//
 //                    
 //                    // Add to the bill and the the sales total.
 //                    if (rows >= 0 && rows <= 8) {
@@ -332,12 +353,19 @@
 //                        bill += 15;
 //                        salesTotal += 15;
 //                        
-//                    } else {
+//                    } else if (rows >= 9 && rows <= 15) {
 //                        
 //                        bill += 12;
 //                        salesTotal += 12;
 //                        
 //                    }
+//                    
+//                    // get the correct index
+//                    rows -= 1;
+//                    column -= 1;
+//                    
+//                    // Make the seat taken.
+//                    seatChart[rows][column] = '*';
 //                    
 //                }
 //                else {
@@ -391,5 +419,5 @@
 //
 //}
 //
-//// TODO: Read and wright to the file.
-//
+
+

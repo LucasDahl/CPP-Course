@@ -13,15 +13,72 @@
  Demonstrate the function in a complete program.
  */
 
-//// Header
-//#include <iostream>
-//using namespace std;
-//
-//
-//int main() {
-//    
-//    
-//    // Return
-//    return 0;
-//    
-//}
+// Header
+#include <iostream>
+using namespace std;
+
+// Protype functions
+int *expandArray (int*, const int);
+
+// Main function
+int main() {
+    
+    // Properties
+    
+    // Constants
+    const int SIZE = 6;
+    
+    // Variables
+    int array[SIZE] = {1,2,3,4,5,6}, *arrayPtr;
+    
+    // Display the first array
+    cout << "The original is " << endl;
+    for(int i = 0; i < SIZE; i++) {
+        
+        cout << array[i] << " ";
+        
+    }
+    
+    // Call the function to extand the array
+    arrayPtr = expandArray(array, SIZE);
+    
+    // Display the new array.
+    cout << "\nThe new array is " << endl;
+    for(int i = 0; i < (SIZE * 2); i++) {
+        
+        cout << arrayPtr[i] << " ";
+        
+    }
+    
+    
+    // Used to end the program.
+    cout << endl;
+    return 0;
+    
+}
+
+// A function that will extand an array.
+int *expandArray (int array[],const int size) {
+    
+    // Properties
+    int newSize = size * 2;
+    int *newArray = new int[newSize];
+    
+    // Make each element in the new array match the original array.
+    for(int i = 0; i < size; i++) {
+        
+        newArray[i] = array[i];
+        
+    }
+    
+    // Make each new element a zero
+    for(int i = size; i < newSize; i++) {
+        
+        newArray[i] = 0;
+        
+    }
+    
+    // Return the new array
+    return newArray;
+    
+}
