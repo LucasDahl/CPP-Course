@@ -17,71 +17,71 @@
  */
 
 // Header
-#include <iostream>
-using namespace std;
-
-// Prototype functions
-int *addToArray(int[], int);
-
-int main() {
-
-    // Properties
-    
-    // Constants
-    const int SIZE = 5;
-    
-    // Variables
-    int *dynArray, array[SIZE] = {1, 2, 3, 4, 5};
-    
-    // Print the first array
-    cout << "The first array is ";
-    for(int i = 0; i < SIZE; i++) {
-        
-        cout << array[i] << " ";
-        
-    }
-    
-    // Make space
-    cout << endl;
-    
-    // Make the new array and print it.
-    dynArray = addToArray(array, SIZE);
-    
-    cout << "The new array is ";
-    
-    for(int i = 0; i < (SIZE + 2); i++) {
-        
-        cout << dynArray[i] << " ";
-        
-    }
-    
-
-    // Return
-    cout << endl;
-    return 0;
-
-}
-
-int *addToArray(int array[], int size) {
-    
-    // Properties
-    int newSize = size + 2, *newArray = new int[newSize];
-    
-    // Add the first two elements of the new array
-    for(int i = 0; i < 2; i++) {
-        
-        newArray[i] = 0;
-        
-    }
-    
-    // Add the old array to the new array
-    for(int i = 0; i < newSize; i++) {
-          
-          newArray[i + 2] = array[i];
-          
-      }
-    
-    // Return the new array.
-    return newArray;
-    
-}
+//#include <iostream>
+//using namespace std;
+//
+//// Prototype functions
+//int *addToArray(int[], int);
+//
+//int main() {
+//
+//    // Properties
+//    
+//    // Constants
+//    const int SIZE = 5;
+//    
+//    // Variables
+//    int *dynArray, array[SIZE] = {1, 2, 3, 4, 5};
+//    
+//    // Print the first array
+//    cout << "The first array is ";
+//    for(int i = 0; i < SIZE; i++) {
+//        
+//        cout << array[i] << " ";
+//        
+//    }
+//    
+//    // Make space
+//    cout << endl;
+//    
+//    // Make the new array and print it.
+//    dynArray = addToArray(array, SIZE);
+//    
+//    cout << "The new array is ";
+//    
+//    for(int i = 0; i < (SIZE + 2); i++) {
+//        
+//        cout << dynArray[i] << " ";
+//        
+//    }
+//    
+//
+//    // Return
+//    cout << endl;
+//    return 0;
+//
+//}
+//
+//int *addToArray(int array[], int size) {
+//    
+//    // Properties
+//    int newSize = size + 2, *newArray = new int[newSize];
+//    
+//    // Add the first two elements of the new array
+//    for(int i = 0; i < 2; i++) {
+//        
+//        newArray[i] = 0;
+//        
+//    }
+//    
+//    // Add the old array to the new array
+//    for(int i = 0; i < newSize; i++) {
+//          
+//          newArray[i + 2] = array[i];
+//          
+//      }
+//    
+//    // Return the new array.
+//    return newArray;
+//    
+//}
