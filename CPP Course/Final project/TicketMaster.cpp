@@ -174,7 +174,7 @@ int main() {
                 
                 // Display the total sales to the user.
                 cout << "The total sales is earned is $" << salesTotal << "." << endl;
-                cout << "So far " << ticketsSold << " have been sold." << endl;
+                cout << "So far " << ticketsSold << " tickets have been sold." << endl;
                 
                 // Ask the user if they want to go back to the menu.
                 userChoice = returnMain();
