@@ -28,11 +28,11 @@
  // • When the day of ticket sales is over and the quit menu choice is selected, the program needs to be able to write the updated seat availability data back out to the file.
  //
  // */
-//
+
+
 //=============
 // MARK: Header
 //=============
-
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -55,7 +55,7 @@ int main() {
     
     // Variables
     double totalSales = 0.0, salesTotal = 0;
-    int userChoice;
+    int userChoice, ticketsSold = 0;
     char totalSeats[ROWS][SEATS_PER_ROW] = { {'#'} };
     ifstream inputFile;
     ofstream outputFile;
@@ -68,6 +68,7 @@ int main() {
     if (inputFile) {
 
         for( int i = 0; i < ROWS; i++ ) {
+            
             for( int j = 0; j < SEATS_PER_ROW; j++ ) {
                 
                 inputFile >> totalSeats[i][j];
@@ -153,6 +154,7 @@ int main() {
                             
                             if (totalSeats[row][col] == '*') {
                                 salesTotal += 15;
+                                ticketsSold += 1;
                             }
                             
                         } else if (row >= 9 && row <= 15) {
@@ -160,6 +162,7 @@ int main() {
                             // Add 12 to the total
                             if (totalSeats[row][col] == '*') {
                                 salesTotal += 12;
+                                ticketsSold += 1;
                             }
                             
                         }
@@ -168,8 +171,10 @@ int main() {
                     
                 }
                 
+                
                 // Display the total sales to the user.
                 cout << "The total sales is earned is $" << salesTotal << "." << endl;
+                cout << "So far " << ticketsSold << " have been sold." << endl;
                 
                 // Ask the user if they want to go back to the menu.
                 userChoice = returnMain();

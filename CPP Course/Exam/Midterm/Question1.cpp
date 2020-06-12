@@ -66,7 +66,7 @@
 //}
 //
 //// Function to get all the info from the user.
-//void getInfo(int& order, int& stock, double& specialCharge) {
+//void getInfo(int& order, int& stock, double& specialCharge = 10) {
 //    
 //    // Properties
 //    char answer;
