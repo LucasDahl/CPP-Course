@@ -56,7 +56,8 @@
 //    // Variables
 //    double totalSales = 0.0, salesTotal = 0;
 //    int userChoice, ticketsSold = 0;
-//    char totalSeats[ROWS][SEATS_PER_ROW] = { {'#'} };
+//    char totalSeats[ROWS][SEATS_PER_ROW] = { {'#'} }, buyTicket;
+//    bool flag = false;
 //    ifstream inputFile;
 //    ofstream outputFile;
 //    
@@ -205,16 +206,47 @@
 //        
 //        
 //    } while (userChoice != 4);
-//  
-//    // Write to the file.
-//    outputFile.open("SeatAvailability.txt");
-//    for (int r = 0; r < 15; r++) {
+//    
+//    // Ask the user if they want to purchase the tickets.
+//    do {
+//        
+//        cout << "Are you sure you want to purchase the ticket?(y or n)";
+//        cin >> buyTicket;
+//        
+//        if(buyTicket == 'y' || buyTicket == 'Y') {
+//            
+//            // Write to the file.
+//            outputFile.open("SeatAvailability.txt");
+//            for (int r = 0; r < 15; r++) {
 //
-//        for(int c = 0; c < 30; c++) {
-//            outputFile << totalSeats[r][c] << endl;
+//                for(int c = 0; c < 30; c++) {
+//                    outputFile << totalSeats[r][c] << endl;
+//                }
+//
+//            }
+//            
+//            // Break out of the loop.
+//            flag = true;
+//            
+//        } else if(buyTicket == 'n' || buyTicket == 'n') {
+//            
+//            // Break out of the loop.
+//            flag = true;
+//            
+//        } else {
+//            
+//            cout << "You must pick y or n..." << endl;
+//            
+//            // Clear the input stream
+//            cin.clear();
+//            cin.ignore();
+//            
 //        }
-//
-//    }
+//        
+//        
+//    } while (flag != true);
+//  
+//    
 //    
 //    // Close the file
 //    outputFile.close();
