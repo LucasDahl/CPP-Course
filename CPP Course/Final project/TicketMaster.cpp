@@ -37,23 +37,21 @@
 #include <fstream>
 using namespace std;
 
+// Global Constants
+ const int ROWS = 15, SEATS_PER_ROW = 30;
+
 // Prototype function
 int showMenu();
-void showSeats(char[15][30]);
+void showSeats(char[ROWS][SEATS_PER_ROW]);
 void openingMessage();
 int returnMain();
-void ticket(char[15][30], double&);
+void ticket(char[ROWS][SEATS_PER_ROW], double&);
 void setprice();
 
 // Main function
 int main() {
     
     // Properties
-    
-    // Constants
-    const int ROWS = 15, SEATS_PER_ROW = 30;
-    
-    // Variables
     double totalSales = 0.0, salesTotal = 0;
     int userChoice, ticketsSold = 0;
     char totalSeats[ROWS][SEATS_PER_ROW] = { {'#'} }, buyTicket;
