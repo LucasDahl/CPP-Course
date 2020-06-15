@@ -19,6 +19,9 @@
 		9512BB352469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */; };
 		9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB342469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp */; };
 		9512BB382469CC5300EDDE13 /* quiz_19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9512BB372469CC5300EDDE13 /* quiz_19.cpp */; };
+		9515EBB92497DB7C00AE5FC7 /* QuestionOneFinal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9515EBB82497DB7C00AE5FC7 /* QuestionOneFinal.cpp */; };
+		9515EBBB2497DB8A00AE5FC7 /* QuestionTwoFinal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9515EBBA2497DB8A00AE5FC7 /* QuestionTwoFinal.cpp */; };
+		9515EBBE2497DB9C00AE5FC7 /* QuestionThreeFinal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9515EBBC2497DB9C00AE5FC7 /* QuestionThreeFinal.cpp */; };
 		952927F5245756FA00F229C0 /* quiz_11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F4245756FA00F229C0 /* quiz_11.cpp */; };
 		952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */; };
 		952927FA2458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */; };
@@ -136,6 +139,10 @@
 		9512BB332469C96B00EDDE13 /* Chap6_7_theReturnStatement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_7_theReturnStatement.cpp; sourceTree = "<group>"; };
 		9512BB342469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap6_8_BoolFunction.cpp; sourceTree = "<group>"; };
 		9512BB372469CC5300EDDE13 /* quiz_19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_19.cpp; sourceTree = "<group>"; };
+		9515EBB82497DB7C00AE5FC7 /* QuestionOneFinal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuestionOneFinal.cpp; sourceTree = "<group>"; };
+		9515EBBA2497DB8A00AE5FC7 /* QuestionTwoFinal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuestionTwoFinal.cpp; sourceTree = "<group>"; };
+		9515EBBC2497DB9C00AE5FC7 /* QuestionThreeFinal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuestionThreeFinal.cpp; sourceTree = "<group>"; };
+		9515EBBF2497E41A00AE5FC7 /* weather.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = weather.txt; sourceTree = "<group>"; };
 		952927F4245756FA00F229C0 /* quiz_11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quiz_11.cpp; sourceTree = "<group>"; };
 		952927F62458AABF00F229C0 /* Chap5_RunningTotal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5_RunningTotal.cpp; sourceTree = "<group>"; };
 		952927F72458AABF00F229C0 /* Chap5.2_user_controled_do_while.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chap5.2_user_controled_do_while.cpp; sourceTree = "<group>"; };
@@ -250,6 +257,7 @@
 		95063FD124797699008A8E8C /* Exam */ = {
 			isa = PBXGroup;
 			children = (
+				9515EBB72497DB6000AE5FC7 /* Final */,
 				95063FD824797711008A8E8C /* Midterm */,
 			);
 			path = Exam;
@@ -263,6 +271,17 @@
 				95063FDB24798C77008A8E8C /* Question3.cpp */,
 			);
 			path = Midterm;
+			sourceTree = "<group>";
+		};
+		9515EBB72497DB6000AE5FC7 /* Final */ = {
+			isa = PBXGroup;
+			children = (
+				9515EBB82497DB7C00AE5FC7 /* QuestionOneFinal.cpp */,
+				9515EBBA2497DB8A00AE5FC7 /* QuestionTwoFinal.cpp */,
+				9515EBBC2497DB9C00AE5FC7 /* QuestionThreeFinal.cpp */,
+				9515EBBF2497E41A00AE5FC7 /* weather.txt */,
+			);
+			path = Final;
 			sourceTree = "<group>";
 		};
 		9529DA852481B0BA005A7C64 /* lab */ = {
@@ -551,6 +570,7 @@
 				9556E875247D9D5700BD64C0 /* quiz_24.cpp in Sources */,
 				956C61562452070200C422D3 /* Chap4.8_UserInputValidation.cpp in Sources */,
 				95F2A63A24730FBF00ABDC97 /* quiz_21.cpp in Sources */,
+				9515EBB92497DB7C00AE5FC7 /* QuestionOneFinal.cpp in Sources */,
 				952B636924857A3100ECC904 /* Chap9.3_ArrayandPointer.cpp in Sources */,
 				9529DA872481B0CF005A7C64 /* rainFall.cpp in Sources */,
 				956C6154245206FC00C422D3 /* Chap4.7_Conditional Operator.cpp in Sources */,
@@ -580,6 +600,7 @@
 				959CD697247EEE8300C59E88 /* LoShuMagicSquare.cpp in Sources */,
 				953E3A0B246C61FE00DEB70B /* Chap6_10_Default Argument.cpp in Sources */,
 				9502A4EF246373F100E1E7BE /* Square display.cpp in Sources */,
+				9515EBBB2497DB8A00AE5FC7 /* QuestionTwoFinal.cpp in Sources */,
 				9512BB362469C96B00EDDE13 /* Chap6_8_BoolFunction.cpp in Sources */,
 				9572197824881CEF00376C8C /* Chap9.7_Return_Pointer.cpp in Sources */,
 				95CB79722486CA7B002FE8FA /* Chap9.4_Pointer_Parameter.cpp in Sources */,
@@ -618,6 +639,7 @@
 				952927F92458AABF00F229C0 /* Chap5_RunningTotal.cpp in Sources */,
 				9543858B2452117C00734A26 /* Chap4.7_ConditionalOperator2.cpp in Sources */,
 				952B636C248582ED00ECC904 /* Quiz 25_Pointer_Array.cpp in Sources */,
+				9515EBBE2497DB9C00AE5FC7 /* QuestionThreeFinal.cpp in Sources */,
 				956A06E2246B3E830024775C /* numbersOutput.cpp in Sources */,
 				95F3F0A524623F1B00D8FB2E /* Using Files - Numeric Processing.cpp in Sources */,
 				9502A4ED24634A1300E1E7BE /* pennies for pay.cpp in Sources */,
